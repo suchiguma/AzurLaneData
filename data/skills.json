@@ -2128,7 +2128,7 @@
     ]
   },
   "5111": {
-    "description": "While this ship is in the first or last position in the Main Fleet: increases RLD by $1 for all CVs and CVLs in your fleet (excluding this ship) and increases AA by $2 for your Main Fleet.",
+    "description": "While this ship {is not the Flagship|The game mentions first or last position, which is ambiguous or wrong considering that the Flagship is first when creating the fleet and first in game code.}: increases RLD by $1 for all CVs and CVLs in your fleet (excluding this ship) and increases AA by $2 for your Main Fleet.",
     "opsi_description": null,
     "name": "One For All",
     "max": 10,
@@ -9854,7 +9854,7 @@
     ]
   },
   "12400": {
-    "description": "Increases this boat's Accuracy by $1. When called into battle when placed in the first or last position in the Submarine Fleet: continues advancing beyond its starting position then returns to it after 18s.",
+    "description": "Increases this boat's Accuracy by $1. When called into battle when {not placed in the Flagship position|The game mentions first or last position, which is ambiguous or wrong considering that the Flagship is first when creating the fleet and first in game code.} in the Submarine Fleet: continues advancing beyond its starting position then returns to it after 18s.",
     "opsi_description": null,
     "name": "Great Shark's Bite",
     "max": 10,
@@ -15188,7 +15188,7 @@
     ]
   },
   "13950": {
-    "description": "When this ship launches an Airstrike: $1 chance to launch an additional special airstrike (DMG is based on the skill's level). At the start of the battle, if there are 3 or more Iron Blood ships in the same fleet: increases this ship's Crit DMG by $2; if there are no other Iron Blood ships: instead increases this ship's RLD by $3 and AA by $4 and further increases the proc chance of this ship's special airstrike by 30.0%.",
+    "description": "When this ship launches an Airstrike: $1 chance to launch an additional special airstrike (DMG is based on the skill's level). At the start of the battle, if there are 3 or more Iron Blood ships in the same fleet: increases this ship's Crit DMG by $2; if there are no other Iron Blood ships {in your Main Fleet:|The game fails to mention that only a Main Fleet ship can prevent these buffs from applying. This condition is not mutually exclusive with the 3 or more Iron Blood ships condition.} increases this ship's RLD by $3 and {AVI|The game incorrectly states AA.} by $4 and further increases the proc chance of this ship's special airstrike by 30.0%.",
     "opsi_description": null,
     "name": "The Lonesome Lookout",
     "max": 10,
@@ -18331,7 +18331,7 @@
     ]
   },
   "14780": {
-    "description": "At the start of the battle and every 20s: decreases this ship's Speed by 5.0% for 3s and fires a $4 special barrage (DMG is based on the skill's level and this ship's FP stat). Enemies hit by seaplanes launched from this barrage receive all of the following effects:\n• Their Speed is decreased by $1 for 5s\n• if there is a Sakura Empire CV afloat in your Main Fleet when this barrage fires: 50.0% chance to inflict a $3 aircraft DMG taken debuff for 8s to enemies hit by the barrage;\n• $2 chance to inflict 1 of the following randomly chosen debuffs for 10s:\n‣ decreases EVA by 10.0%;\n‣ decreases Accuracy by 10.0%;\n‣ decreases the enemy's DMG dealt by 10.0%.",
+    "description": "At the start of the battle and every 20s: decreases this ship's Speed by 5.0% for 3s and fires a $4 special barrage (DMG is based on the skill's level and this ship's FP stat). Enemies hit by seaplanes launched from this barrage receive all of the following effects:\n• Their Speed is decreased by $1 for 5s\n• if there is a Sakura Empire CV afloat in your Main Fleet when this barrage fires: 50.0% chance to inflict a $3 aircraft DMG taken debuff for 8s to enemies hit by the barrage;\n• $2 chance to inflict 1 of the following randomly chosen debuffs for 10s:\n‣ decreases EVA by 10.0%;\n‣ decreases Accuracy by 10.0%;\n‣ decreases the enemy's DMG dealt by {0.0%|The game intends to decrease the enemy's overall damage dealt by 10.0%. Instead, it decreases the bonus damage dealt modifier by 10.0%. Since this modifier starts at 0%, and percentage effects scale from the base value, the reduction is always 0%.}.",
     "opsi_description": null,
     "name": "All-Seeing Eye",
     "max": 10,
@@ -20267,7 +20267,7 @@
     ]
   },
   "15260": {
-    "description": "Every 15s: fires a $1 special barrage and increases the ACC of your Main Fleet by $2 for 8s (barrage DMG is based on the skill's level).",
+    "description": "Every 15s: fires a $1 special barrage and increases the ACC of your Main Fleet by $2 {for the rest of the battle|The game incorrectly states a duration of 8 seconds.} (barrage DMG is based on the skill's level).",
     "opsi_description": null,
     "name": "Noble Strike",
     "max": 10,
@@ -25981,7 +25981,7 @@
     ]
   },
   "16730": {
-    "description": "When this ship launches an airstrike: subtracts 50 HP from a random ship in your fleet and, with a $1 chance, fires a $2 special barrage (DMG is based on the skill's level). The ship who lost HP because of this skill's effect deals $3 more DMG for 8s; after 8s has passed, that ship recovers $4 of her max HP.",
+    "description": "When this ship launches an airstrike: subtracts 50 HP from a random {other|The game does not mention that she will not target herself.} ship in your fleet and, with a $1 chance, fires a $2 special barrage (DMG is based on the skill's level). The ship who lost HP because of this skill's effect deals $3 more DMG for 8s; after 8s has passed, that ship recovers $4 of her max HP.",
     "opsi_description": null,
     "name": "A Good Girl's Caprice",
     "max": 10,
@@ -26040,7 +26040,7 @@
     ]
   },
   "16740": {
-    "description": "When the battle starts, for any other ship afloat in your fleet: increases this ship's AVI and ACC by $1 (can be stacked up to 3 times). If this ship is your Flagship: increases this ship's RLD by $2 and her DMG dealt by $3 until the battle ends.",
+    "description": "When the battle starts, for any other ship afloat in your fleet: increases this ship's AVI and ACC by $1 (can be stacked up to 3 times). If this ship is your Flagship: increases this ship's RLD by $2 and her {DMG dealt by 0.0%|The game intends to increase her overall damage dealt by 4.0% to 10.0%. Instead, it increases the bonus damage dealt modifier by that amount. Since this modifier starts at 0%, and percentage effects scale from the base value, the increase is always 0%.} until the battle ends.",
     "opsi_description": null,
     "name": "Naughty, Naughty",
     "max": 10,
@@ -26071,18 +26071,6 @@
         "12.7%",
         "13.8%",
         "15.0%"
-      ],
-      [
-        "4.0%",
-        "4.6%",
-        "5.2%",
-        "6.0%",
-        "6.6%",
-        "7.2%",
-        "8.0%",
-        "8.6%",
-        "9.2%",
-        "10.0%"
       ]
     ]
   },
@@ -29270,7 +29258,7 @@
     ]
   },
   "17650": {
-    "description": "When the battle starts: increases this ship's FP by $1. When this ship's Main Guns hit an enemy: $2 chance to, for 8s, decrease that enemy's SPD by 15.0% and increase your Gangut-class BBs' and your Northern Parliament Vanguard ships' DMG dealt by $3.",
+    "description": "When the battle starts: increases this ship's FP by $1. When this ship's Main Guns hit an enemy: $2 chance to, for 8s, decrease that enemy's SPD by 15.0% and increase your Gangut-class BBs' and your Northern Parliament Vanguard ships' DMG dealt {to that enemy|Omitting this wording could incorrectly imply that she increases damage dealt to all enemies.} by $3.",
     "opsi_description": null,
     "name": "Oathbound Chains",
     "max": 10,
@@ -42934,7 +42922,7 @@
     ]
   },
   "104060": {
-    "description": "When this ship launches an Airstrike while sortied with Kizuna AI: $1 chance for the Airstrike to deal double DMG.",
+    "description": "When this ship launches an Airstrike while sortied with {any Kizuna AI faction ship|Clarifying that it can be any version of Kizuna AI or user of Pyoko-Pyoko.}: $1 chance {to increase this ship's damage dealt with equipped airplanes by 100% for 8s|Game incorrectly states that the airstrike deals double damage, correcting this is a bit pedantic, but it does mean consecutive airstrikes deal more damage, and airstrikes' stock bombs do not.}.",
     "opsi_description": null,
     "name": "Melty World",
     "max": 10,
@@ -45646,7 +45634,7 @@
     ]
   },
   "107080": {
-    "description": "At the start of the battle: randomly chooses 1 other ship in your fleet and decreases her DMG taken by $2 for 30s. Once this effect wears off: heals that ship for $2 HP.",
+    "description": "At the start of the battle: randomly chooses 1 other ship in your fleet and decreases {both this ship's and that ship's|The game does not mention it also applies to this ship.} DMG taken {by $1|This value is displayed incorrectly in game.} for 30s. Once this effect wears off: heals that ship for $2 HP.",
     "opsi_description": null,
     "name": "Iori Defense!",
     "max": 10,
@@ -62707,7 +62695,7 @@
     "values": []
   },
   "800640": {
-    "description": "During battle, deploys \"Jamming Field - Arizona META.\" Enemies within this field take $1 more DMG and have their SPD decreased by {50%|The game incorrectly handles part of this skill and the slow always remains 50%, additionally this also causes the fading effect to temporarily speed up the enemy.}; the SPD debuff fades over 3s upon leaving this field.",
+    "description": "During battle, deploys \"Jamming Field - Arizona META.\" Enemies within this field take $1 more DMG and have their SPD decreased by {50%|The game incorrectly handles part of this skill and the slow always remains 50%, additionally this also causes the fading effect to temporarily speed up the enemy.}; the SPD debuff fades over 3s {beginning immediately|The game incorrectly says the fade begins upon leaving this field}.",
     "opsi_description": null,
     "name": "Melancholy Whispers",
     "max": 10,
@@ -62730,7 +62718,7 @@
     ]
   },
   "800650": {
-    "description": "During battle, when a surface ship in your fleet recovers more than 5.0% of her max HP in one activation: restores $1 of this ship's max HP and fires a $2 special barrage (DMG is based on the skill's level; 12s cooldown between activations). Once per battle, when a ship in your surface fleet has taken DMG exceeding 30.0% of her max HP, or when a ship in your surface fleet falls below 30.0% of her max HP: this skill's special barrage gains a SHS attack that creates \"Jamming Field - Arizona META\" (lasts 3s) at the location it hits.",
+    "description": "During battle, when a surface ship in your fleet recovers more than 5.0% of her max HP in one activation: restores $1 of this ship's max HP and fires a $2 special barrage (DMG is based on the skill's level; 12s cooldown between activations). Once per battle, when a ship in your surface fleet has taken DMG exceeding 30.0% of her max HP, or when a ship in your surface fleet falls below 30.0% of her max HP: this skill's special barrage gains a SHS attack that creates \"Jamming Field - Arizona META\" (lasts 3s) at the location it hits {(only enemies hit by the initial impact are debuffed)|This behavior is different from the Jamming Field from her other skill, which catches all enemies who enter it.}.",
     "opsi_description": null,
     "name": "No More Tears",
     "max": 10,
@@ -74207,7 +74195,7 @@
     "name": "Cover Fire - Fusou",
     "max": 10,
     "id": 1090180,
-    "type": 2,
+    "type": 1,
     "icon": 2070,
     "values": [
       [
@@ -75250,7 +75238,7 @@
     "name": "Target Designator: Torpedo - Matchless",
     "max": 10,
     "id": 1090450,
-    "type": 3,
+    "type": 1,
     "icon": 2120,
     "values": [
       [
