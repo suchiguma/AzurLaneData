@@ -71,6 +71,15 @@
       "values": []
     }
   },
+  "11950": {
+    "replace": [
+      {
+        "existing": "Increases this ship's Crit Rate by $1, DMG dealt against DDs by $2,",
+        "with": "Increases this ship's {Torpedo|The game incorrectly omits this.} Crit Rate by $1, {this ship's|Clarifying that this clause is not granted to Royal Navy DDs.} DMG dealt against DDs by $2,",
+        "all": false
+      }
+    ]
+  },
   "104060": {
     "replace": [
       {
