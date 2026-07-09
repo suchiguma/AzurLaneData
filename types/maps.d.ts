@@ -57,7 +57,7 @@ export type MapType =
 16 | // Event Hard (WA)
 17 | // raid map
 18 |// coalition map
-18 // coalition map
+19 // coalition map (WA)
 
 export type EnemyStatKey = 'hp' | 'fp' | 'trp' | 'avi' | 'aa' | 'hit' | 'eva' | 'spd' | 'luck' | 'armor'
 
