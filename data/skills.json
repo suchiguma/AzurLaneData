@@ -76108,7 +76108,7 @@
     ]
   },
   "1090490": {
-    "description": "Every 20s: 25.0% chance to increase the fleet's RLD by $1 for 8s (Does not stack with other Reload Order skills; only the highest value takes effect);\nIf this ship is equipped with an AP Main Gun: increases this ship's AP DMG modifier against all armor types by $2; if this ship is equipped with a HE or SAP Main Gun: increases this ship's FP by $3, {EVA by $3, AA by $3|The game incorrectly claims 5.0% to 25.0%.}, and additionally fires a $4 special barrage every 20s (DMG is based on the skill's level).\nOnce per battle, when this ship falls below 30.0% Max HP as a result of DMG taken: restores $2 of this ship's Max HP.",
+    "description": "Every 20s: 25.0% chance to increase the fleet's RLD by $1 for 8s (Does not stack with other Reload Order skills; only the highest value takes effect);\nIf this ship is equipped with an AP Main Gun: increases this ship's AP DMG modifier against all armor types by $2; if this ship is equipped with a HE or SAP Main Gun: increases this ship's FP by $3, {EVA by $2, AA by $2|The game incorrectly claims 5.0% to 25.0%.}, and additionally fires a $4 special barrage every 20s (DMG is based on the skill's level).\nOnce per battle, when this ship falls below 30.0% Max HP as a result of DMG taken: restores $2 of this ship's Max HP.",
     "opsi_description": null,
     "name": "Reload Order - Pensacola",
     "max": 10,

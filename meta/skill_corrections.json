@@ -30,7 +30,7 @@
     "replace": [
       {
         "existing": "EVA by $1, AA by $1",
-        "with": "{EVA by $3, AA by $3|The game incorrectly claims 5.0% to 25.0%.}",
+        "with": "{EVA by $2, AA by $2|The game incorrectly claims 5.0% to 25.0%.}",
         "all": false
       }
     ]
