@@ -1,4 +1,40 @@
 {
+  "190110": {
+    "replace": [
+      {
+        "existing": "special HE ammo that ignores enemy shields (Special HE DMG modifier increases based on the skill's level)",
+        "with": "{special HE with $5 modifiers, 22 Speed, 100-110 range, 1% chance to inflict Standard Burn that ignored enemy shields|The bullet properties are not stated in game at all.}",
+        "all": false
+      }
+    ],
+    "inject_value": [
+      {
+        "level": 1,
+        "index": 4,
+        "text": [
+          "120/80/70",
+          "120/82/70",
+          "120/82/72",
+          "120/85/72",
+          "120/85/75",
+          "120/90/75",
+          "120/90/80",
+          "120/95/80",
+          "120/95/85",
+          "120/100/90"
+        ]
+      }
+    ]
+  },
+  "1090490": {
+    "replace": [
+      {
+        "existing": "EVA by $1, AA by $1",
+        "with": "{EVA by $3, AA by $3|The game incorrectly claims 5.0% to 25.0%.}",
+        "all": false
+      }
+    ]
+  },
   "10": {
     "full": {
       "description": "{Every 5s, restores 6 HP to the most damaged ship.|In game description makes it sound like the ship with this gear/skill heals the HP instead.} {Effect does not stack.|Despite using the same name: This effect does stack with repair toolkits if applicable.}\n{Repair ships at limit break 0 have this skill built in.|The game does not mention this at all, this effectively makes cranes that grant the same or a lower Repair level useless.}",
@@ -593,23 +629,16 @@
     "original_name": "Divine Marksman ®"
   },
   "11890": {
-    "override_values": {
-      "index": [
-        1
-      ],
-      "values": [
-        "{0.001%|The game applies the buff incorrectly leading to an abysmally low increase.}",
-        "{0.00122%|The game applies the buff incorrectly leading to an abysmally low increase.}",
-        "{0.00144%|The game applies the buff incorrectly leading to an abysmally low increase.}",
-        "{0.00166%|The game applies the buff incorrectly leading to an abysmally low increase.}",
-        "{0.00188%|The game applies the buff incorrectly leading to an abysmally low increase.}",
-        "{0.0021%|The game applies the buff incorrectly leading to an abysmally low increase.}",
-        "{0.00232%|The game applies the buff incorrectly leading to an abysmally low increase.}",
-        "{0.00254%|The game applies the buff incorrectly leading to an abysmally low increase.}",
-        "{0.00276%|The game applies the buff incorrectly leading to an abysmally low increase.}",
-        "{0.003%|The game applies the buff incorrectly leading to an abysmally low increase.}"
-      ]
-    }
+    "remove_values": [
+      1
+    ],
+    "replace": [
+      {
+        "existing": "Once per battle, if this ship's HP falls below 25.0%: increases its Evasion Rate by $2 for 10s.",
+        "with": "Once per battle, if this ship's HP falls below 25.0%: {do nothing special|The game states that the ships Evasion Rate is increased by 10.0% to 30.0%. However, the game actually increases the evasion rate bonus modifier by 0.001% to 0.003% (thats not a typo). Additionally, because this modifier starts at 0, and percentage effects scale from the base value, the actual increase is always 0%.}.",
+        "all": false
+      }
+    ]
   },
   "12110": {
     "set": "{Every 20s: launches a random $1 special airstrike (DMG is based on the skill's level.)|This skill claims that 7 luck are gained when falling below 30% HP but that never actually happens.}",
@@ -1726,7 +1755,7 @@
       }
     ],
     "append": [
-      " {Possible effects are|The game mentions none of this.}:\n• 15s after battle begins the flagship fires a special barrage scaling with total fleet power\n• 2s after battle starts increase the FP, TRP, AA, AVI, RLD, ACC and EVA of the entire fleet by 1.0% for every different faction in the fleet. Iris Libre and Vichya Dominion are treated as the same faction, META as it's own faction, Tempesta, Kingdom of Tulipa and Collab factions do not count at all.\n• Every 35s, heals the entire Vanguard fleet for 1.0% of their respective max HP\n\n{If equipped twice on the same ship only one effect at normal potency is chosen, if equipped on two different ships they each pick an effect and in the event the same effect is picked they stack as follows:|The game does not explain how multiple copies of this gear work at all.}\n• The barrage only fires once not twice (it does not stack).\n• The stat bonuses gained go up to a maximum of 10.0% not 12.0%.\n• The heal stacks as normal and heals twice."
+      " {Possible effects are|The game mentions none of this.}:\n• 15s after battle begins the flagship fires a special barrage scaling with total fleet power\n• 2s after battle starts increase the FP, TRP, AA, AVI, RLD, ACC and EVA of the entire fleet by 1.0% for every different faction in the fleet. Iris Libre and Vichya Dominion are treated as the same faction, META as it's own faction, Tempesta and Collab factions do not count at all.\n• Every 35s, heals the entire Vanguard fleet for 1.0% of their respective max HP\n\n{If equipped twice on the same ship only one effect at normal potency is chosen, if equipped on two different ships they each pick an effect and in the event the same effect is picked they stack as follows:|The game does not explain how multiple copies of this gear work at all.}\n• The barrage only fires once not twice (it does not stack).\n• The stat bonuses gained go up to a maximum of 10.0% not 12.0%.\n• The heal stacks as normal and heals twice."
     ]
   },
   "60590": {

@@ -126319,6 +126319,48 @@
             "conditions": {
               "oath": true
             },
+            "type": "Login",
+            "line": "Howdy. Finished charging your batteries? I can help if you still need more energy."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Details",
+            "line": "Yeah, hey... Hmm... Huh? Me? I'm as carefree as can be. What about you? Something you wanna get off your chest?"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 5",
+            "line": "Man, your desk is just loaded with neat stuff. Hehehe, ain't never a dull moment in your office~"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 6",
+            "line": "I'm like a human shredder, tearing paperwork you don't wanna do into ribbons... Hmm. You sure you can still manage with this amount?"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 7",
+            "line": "It's not so bad doing the same task all day when you've got someone to vibe with~"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 8",
+            "line": "Heard Strasser sat Heinrich down and made her read a book for once. Maybe I should find something to read before bedtime."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
             "type": "Headpat",
             "line": "Huh? This is praise, right? Thanks."
           },
@@ -126328,6 +126370,27 @@
             },
             "type": "Touch",
             "line": "I was thinking I'd do something fun with you before today's training. Yeah, THAT kinda fun."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Special Touch",
+            "line": "You've really got a, uh, keen interest in women's bodies."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Return to Port",
+            "line": "I'm gonna open the window and get some fresh air in here. C'mon! Breathe in, breathe out!"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Affinity: Love",
+            "line": "You down to hang out with me today? Ah, right, you've got work... Tell you what, I'll help you with it. First order of business: putting a smile on your face~"
           }
         ]
       },
@@ -223735,6 +223798,1069 @@
           {
             "type": "Affinity: Love",
             "line": "Is the cleaning done already? Heehee - you, however, don't seem to have had enough. Allow me to repay your efforts now, then. Aahhh... It's true - other than nature, you are the only thing that helps me relax."
+          }
+        ]
+      }
+    ]
+  },
+  "20043": {
+    "id": 20043,
+    "skins": [
+      {
+        "id": -1,
+        "lines": [
+          {
+            "type": "Description",
+            "line": "G3-class battlecruiser - Duncan."
+          },
+          {
+            "type": "Introduction",
+            "line": "Sorry to keep you waiting. I am the Royal battlecruiser, Duncan. I shall assist you with any... \"jobs\" that might need doing. You're curious about my violin? It is a necessary part of my disguise... just like in the movies."
+          },
+          {
+            "type": "Aquisition",
+            "line": "Royal battlecruiser Duncan, reporting for duty, Commander. I would gladly take on any task you require, from dispatching dangers outside to supporting you with paperwork and admin inside. Please allow me to be your adviser."
+          },
+          {
+            "type": "Login",
+            "line": "I am a professional, and I ask that you rely on me. I am capable of fulfilling my duties to your satisfaction, whether they be organising your daily schedule or \"dealing with\" any mission targets..."
+          },
+          {
+            "type": "Details",
+            "line": "I modified this violin case to store weapons and gadgets, which means I am well-equipped to handle almost any scenario. Although, I prefer to deal with situations before they turn ugly. That's more efficient and professional."
+          },
+          {
+            "type": "Idle 1",
+            "line": "The most unassuming of items can prove highly effective in the hands of a pro. Even if it's something as simple as a pencil."
+          },
+          {
+            "type": "Idle 2",
+            "line": "Frozen meals are quick to prepare and eat. Perfect for when you need to rush out on an important mission."
+          },
+          {
+            "type": "Idle 3",
+            "line": "It's not a \"strange sound\" - it's the melody of my violin. As for the intonation... As long as I look like a professional player, it's enough."
+          },
+          {
+            "type": "Idle 4",
+            "line": "I've watched so many spy films. Each and every one of them was an absolute masterpiece. They can be unrealistic at times, but even those scenes are informative."
+          },
+          {
+            "type": "Headpat",
+            "line": "P-please... do be gentle with me..."
+          },
+          {
+            "type": "Touch",
+            "line": "Yes, Commander? Awaiting your orders."
+          },
+          {
+            "type": "Special Touch",
+            "line": "No visible third parties are in our surrounding area, Commander. We are clear to proceed."
+          },
+          {
+            "type": "Task",
+            "line": "You still have missions to complete, Commander. Or shall I deal with them for you?"
+          },
+          {
+            "type": "Task Complete",
+            "line": "Mission complete. The target has been silenced."
+          },
+          {
+            "type": "Mail",
+            "line": "There is post for you, Commander. Shall I summarise the contents for you?"
+          },
+          {
+            "type": "Return to Port",
+            "line": "Welcome back, Commander. Would you care for a martini? Shaken, of course."
+          },
+          {
+            "type": "Commission",
+            "line": "The commission fleet has returned, and I have finished inspecting the rewards. I shall now give you a detailed report."
+          },
+          {
+            "type": "Enhance",
+            "line": "I need more firepower. Lots of firepower."
+          },
+          {
+            "type": "Start Battle",
+            "line": "Time for a little clean up, wouldn't you say?"
+          },
+          {
+            "type": "MVP",
+            "line": "It seems the enemy tends to overestimate their own strength."
+          },
+          {
+            "type": "Defeat",
+            "line": "I'm sorry... I've troubled you with my incompetence..."
+          },
+          {
+            "type": "Skill",
+            "line": "I never miss."
+          },
+          {
+            "type": "Low HP",
+            "line": "It's time to finish this..."
+          },
+          {
+            "type": "Affinity: Disappointed",
+            "line": "Should something be causing you difficulties, Commander, I ask that you confide in me."
+          },
+          {
+            "type": "Affinity: Stranger",
+            "line": "It is enough for me to work by your side as your secretary, and to protect you with my body and weapons."
+          },
+          {
+            "type": "Affinity: Friendly",
+            "line": "Champagne must be opened at the perfect temperature according to the years it has been aged. Why yes, I am highly detail-oriented. It allows me to close the distance between us, Commander."
+          },
+          {
+            "type": "Affinity: Like",
+            "line": "Just relax and leave everything to me... I've always wanted to say that."
+          },
+          {
+            "type": "Affinity: Love",
+            "line": "The time I spent with you has become my most precious treasure in this world. Commander, I shall continue to serve by your side in my own way until the very end of my mission."
+          },
+          {
+            "type": "Pledge",
+            "line": "A vortex of emotion rages within my chest... I have no doubt that this means I'm longing for you... Would you allow me to unleash all the overflowing love I feel upon you right now?"
+          },
+          {
+            "type": "Gift: Liked",
+            "line": "Thank you. I shall return the favour in kind, so please look forward to it."
+          }
+        ],
+        "ex": [
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Login",
+            "line": "No matter how long we are apart, know this: I shall always be waiting for your return."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 5",
+            "line": "Completing my missions too quickly means I cannot spend as much time by your side. And yet, it isn't right that I prolong them unnecessarily either... I must find the perfect pace."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 6",
+            "line": "I have never looked at you from this angle before, Commander... Ahem. Do you have any plans after today's mission? Would you like to go and see a film with me?"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 7",
+            "line": "There is a delicious curry among the meal pouches we received recently. Would you like to have some with me?"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 8",
+            "line": "If crime would give me wings to reach you, I would - Oh, don't do that? Alright."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Headpat",
+            "line": "Are you going to assign me a mission? If not, then please continue..."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Touch",
+            "line": "Do you have instructions for me? Please whisper them into my ear so they don't leak."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Special Touch",
+            "line": "You have transmitted to me both your feelings and your warmth. I shall respond with my own..."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Task",
+            "line": "I have assembled a list of missions, Commander. Could you make a decision as to where to start?"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Return to Port",
+            "line": "Please do as I say and return to the safe house to rest. I shall stay up and be by your side."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Affinity: Love",
+            "line": "I shan't waste a single minute, a single second, of my life as long as we are together. Allow me to devote my whole self to serve, protect, and love you."
+          }
+        ]
+      }
+    ]
+  },
+  "20044": {
+    "id": 20044,
+    "skins": [
+      {
+        "id": -1,
+        "lines": [
+          {
+            "type": "Description",
+            "line": "Light cruiser - Takahashi."
+          },
+          {
+            "type": "Introduction",
+            "line": "I am Takahashi, a light cruiser of the Sakura Empire. You may think of me as a serene and unburdened recluse. When night falls, however... Heehee, have you seen a \"demon\" that craves affection?♥"
+          },
+          {
+            "type": "Aquisition",
+            "line": "*yawn*... My, are you the Commander? I wonder, was it a mere coincidence or the web of fate that brought us together... Heheh~♪"
+          },
+          {
+            "type": "Login",
+            "line": "Long have I trained in the cavern, but never could I have imagined such a place to exist in the worldly realm... Commander, please allow me to seek your guidance once again today."
+          },
+          {
+            "type": "Details",
+            "line": "These are... some simple trinkets I wove together. I was planning to give them away, but if anything catches your eye, please feel free to take it."
+          },
+          {
+            "type": "Idle 1",
+            "line": "These threads are an extension of my eyes, ears, and senses... It is the very connection between the two of us. Through it, I can feel your every heartbeat... as if I could grasp it."
+          },
+          {
+            "type": "Idle 2",
+            "line": "As the sun must set westward, so too does time flow onward, slowly and inexorably. Should your mind ever be in turmoil, Commander, take a look at the moss resting upon this stone. Take it slow and don't rush."
+          },
+          {
+            "type": "Idle 3",
+            "line": "Commander, there's a scent on you that I don't recognize... This is... most troubling indeed... Ehehehe..."
+          },
+          {
+            "type": "Idle 4",
+            "line": "I spin threads in my spare time, though not for any practical purpose. I just don't want my fingers to be idle."
+          },
+          {
+            "type": "Headpat",
+            "line": "Ahhh, yes~ Touch me more... Engrave your warmth upon me~♡"
+          },
+          {
+            "type": "Touch",
+            "line": "Eheheh, it's as if you're testing me... Do you want to be entrapped so badly?"
+          },
+          {
+            "type": "Special Touch",
+            "line": "My, my~ You've learned how to be proactive... Ehehe... I'll have to spend this entire night repaying the favor~♥"
+          },
+          {
+            "type": "Task",
+            "line": "Commander, if you are negligent in your duties, that would certainly get in the way of the nights we share... And you wouldn't want that, would you?"
+          },
+          {
+            "type": "Task Complete",
+            "line": "Great is the feat performed with neither showmanship nor boasting... Well done indeed~"
+          },
+          {
+            "type": "Mail",
+            "line": "Letters are like an autumnal breeze passing by. Give them a glance, then let them go."
+          },
+          {
+            "type": "Return to Port",
+            "line": "You certainly took your sweet time, my dear Commander... Since you've kept me waiting so long, I shall not release you from the long night ahead, not even for a moment~♡"
+          },
+          {
+            "type": "Commission",
+            "line": "Your worldly duties are calling to you. Go now; do not keep the girls in the commission team waiting."
+          },
+          {
+            "type": "Enhance",
+            "line": "My threads... have grown stronger~♪"
+          },
+          {
+            "type": "Start Battle",
+            "line": "An inevitable conflict awaits..."
+          },
+          {
+            "type": "MVP",
+            "line": "Let go of worldly attachments. Dwell not on gains and losses, and celebrate victory."
+          },
+          {
+            "type": "Defeat",
+            "line": "Fortune and misfortune are predetermined. Follow the flow of karma, and you shall not go astray."
+          },
+          {
+            "type": "Skill",
+            "line": "All things are transient; through karma, find form -"
+          },
+          {
+            "type": "Low HP",
+            "line": "Let go of all wants and desires, and you shall become unbreakable..."
+          },
+          {
+            "type": "Affinity: Disappointed",
+            "line": "Every meeting is the confluence of fate... but should the threads of fate be too feeble, such is all it amounts to..."
+          },
+          {
+            "type": "Affinity: Stranger",
+            "line": "Clear your mind, and your heart will naturally make room for serenity to dwell. If you are weary, why not take a seat and try meditating like me? Yes, let's first regulate our breathing... inhale... exhale..."
+          },
+          {
+            "type": "Affinity: Friendly",
+            "line": "What brings you here again? Do you seek a moment of purity, or perhaps... did you simply feel like listening to the ramblings of a bored one?"
+          },
+          {
+            "type": "Affinity: Like",
+            "line": "...Found you~ Heehee, did I surprise you? No matter how far you are, I can find everything about you simply by following the threads~♥"
+          },
+          {
+            "type": "Affinity: Love",
+            "line": "How many threads did I attach to you today? If you get the answer wrong, I'll tie you up in a corner where even the moonlight cannot reach... and then, and then... Ahhhn~♥"
+          },
+          {
+            "type": "Pledge",
+            "line": "Alas, my beloved Commander... You have witnessed the desires I try to suppress, as well as the passionate love I drown in... yet you still wish to step into the \"nest\" of my heart? If that is what you truly desire... then I shall never let go of you again. Ehehehe~♥"
+          },
+          {
+            "type": "Gift: Liked",
+            "line": "My, my. I'll have to keep this close at hand~♪"
+          }
+        ],
+        "ex": [
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Login",
+            "line": "While you were away, I decorated your office with my threads.... Heehee, don't worry. It's only what is needed to build our nest. When I miss you, however, the threads might get a little anxious...♡"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 5",
+            "line": "I have never revealed the location of the cavern in which I cultivated my skills to anyone else... but if you wish to leave the worldly realm behind, I can guide you there, and we can find peace together."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 6",
+            "line": "Mmfh... If I leave my scent on your arm, up to your neck... then, my very being will be etched upon your body~"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 7",
+            "line": "Gift-giving is the act of forging bonds. Nest-building is the act of weaving destiny. And I have already sewn my very being into threads, threads that have woven their way into the gaps of your life... In other words, we are now bound by unbreakable karmic ties~♪"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 8",
+            "line": "Ehehe... Just a little more, and it'll soon be finished... A perfect nest for the two of us, drenched in love-soaked threads~♥"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Headpat",
+            "line": "Ahh... it's like I'm in paradise... let me indulge in this moment a bit longer~♡"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Touch",
+            "line": "The place you just touched... throbs with pain and pleasure alike... Ahahaha~♥"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Special Touch",
+            "line": "Ahh, what an intoxicating aroma... I simply can't resist the urge to taste you~♥"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Return to Port",
+            "line": "Welcome back to the nest~ Now then, let my threads clean away some of this worldly dust that has gotten stuck onto you... little by little, until you become mine alone~♥"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Affinity: Love",
+            "line": "Now matter how much affection others may have towards you, I want you to only have eyes for me. Indeed, you are my implacable obsession, the nectar that quenches my thirst... I want your gaze and your warmth to snuff out my breath~♥"
+          }
+        ]
+      }
+    ]
+  },
+  "20045": {
+    "id": 20045,
+    "skins": [
+      {
+        "id": -1,
+        "lines": [
+          {
+            "type": "Description",
+            "line": "Aircraft carrier - Max Immelmann."
+          },
+          {
+            "type": "Introduction",
+            "line": "I am Max Immelmann, Aircraft Carrier of the Iron Blood, Ancient Dragon of Steel, and Immortal Monarch of the Welkin... Th-that's too long? You may simply call me by name, then. This is a special reward and privilege I extend to you and you alone, Dragonspeaker."
+          },
+          {
+            "type": "Aquisition",
+            "line": "Ahh... How long it has been. The mortal-usurped welkin... I, Max Immelmann, master of steel and sky, have awakened. ...Hm? Were you the one who roused me from my slumber? Heh... Then, I shall bestow the title of Dragonspeaker upon you. Let us conquer the realm above the clouds together."
+          },
+          {
+            "type": "Login",
+            "line": "This vessel is quite adequate... It is capable of flight, suited for combat... and well-equipped to taste the world's delicacies♪ What delectable sweets shall you present me with today, Dragonspeaker?"
+          },
+          {
+            "type": "Details",
+            "line": "I am a dragon - a dragon of steel roused from my long slumber. Even if I am temporarily trapped in this soft body, in your heart I am always the apex of existence, am I not? Ahahahah~♪"
+          },
+          {
+            "type": "Idle 1",
+            "line": "I would do anything for a piece of Bienenstich. Come, Dragonspeaker♪ What will you ask for in return?"
+          },
+          {
+            "type": "Idle 2",
+            "line": "August's dragon is quite impressive in its own right, but my wings are much larger and more magnificent, are they not? Who's the mightier dragon, you ask? What an adorable question. Ahaha!"
+          },
+          {
+            "type": "Idle 3",
+            "line": "Ow! ...I burned my tongue trying to breathe fire the other day. Dragonspeaker, let me cool my tongue on your cheek, okay?"
+          },
+          {
+            "type": "Idle 4",
+            "line": "Wait, you say that these... tiny, funny-looking, adorable creatures in the gallery are dragons too? They're my kin?!"
+          },
+          {
+            "type": "Headpat",
+            "line": "Heheh, this is a genuine dragon's horn. A mere brush from it is enough to tear your clothes apart... Just like this~♪"
+          },
+          {
+            "type": "Touch",
+            "line": "You want to be warmed up? Perhaps I should breathe fire on you... Ahaha♪ Just kidding~♪ Now, come closer..."
+          },
+          {
+            "type": "Special Touch",
+            "line": "Dragonspeaker... You have some rather unconventional hobbies~♪"
+          },
+          {
+            "type": "Task",
+            "line": "Instruction manual #1 says...a timer for unfinished tasks? Oh, it went off... 'tis quite effective, I must say."
+          },
+          {
+            "type": "Task Complete",
+            "line": "Instruction manual #2 says... upon mission completion, register the results into the database... Hmm. This machine is quite easy to use."
+          },
+          {
+            "type": "Mail",
+            "line": "Instruction manual #3 says... follow these steps to accept mail... Done. This whole work thing is easy-peasy!"
+          },
+          {
+            "type": "Return to Port",
+            "line": "You should rest after a hard day of work. Won't you roost under my iron wings? That way, I can rest easy within your heart, too."
+          },
+          {
+            "type": "Commission",
+            "line": "Instruction manual #4 says... Ooh, who cares about that?! Behold that glittery loot in the port! Let us go get a look at it, Dragonspeaker!"
+          },
+          {
+            "type": "Enhance",
+            "line": "Come. We take flight!"
+          },
+          {
+            "type": "Start Battle",
+            "line": "Come. Let's enjoy the view of our panicked foes."
+          },
+          {
+            "type": "MVP",
+            "line": "To celebrate my victory... I shall stretch my wings into the firmament. Won't you join me, Dragonspeaker?"
+          },
+          {
+            "type": "Defeat",
+            "line": "They got us... But I shan't forget how this enemy dared tarnish these skies."
+          },
+          {
+            "type": "Skill",
+            "line": "A dragon's flame scorches even the firmament!"
+          },
+          {
+            "type": "Low HP",
+            "line": "A dragon never falls!"
+          },
+          {
+            "type": "Affinity: Disappointed",
+            "line": "...Even so, I shall protect you. Just as you stood guard over me as I slumbered..."
+          },
+          {
+            "type": "Affinity: Stranger",
+            "line": "You are special to me, Dragonspeaker. But remember, not all dragons fall in love with the first person they lay eyes on... 'Tis but a coincidence that I have special feelings for you."
+          },
+          {
+            "type": "Affinity: Friendly",
+            "line": "In my long, lonesome existence, the welkin was my sole companion... But now, there is a mortal life I fret over. It is not a bad feeling at all, though."
+          },
+          {
+            "type": "Affinity: Like",
+            "line": "Be wary, Dragonspeaker. My dragon's eye can spot the storm looming ahead... If you must march to the frontlines, my wings will be your shield."
+          },
+          {
+            "type": "Affinity: Love",
+            "line": "Dragonspeaker, you are now as mighty as I am. Even if I am no more, you must conquer the welkin on your own... Mm? Why are there tears running down my cheeks...? I know you will never leave me. Do these tears run out of... instinct?"
+          },
+          {
+            "type": "Pledge",
+            "line": "An oath? Why even bring it up when I've already resolved to share eternity with you... Have I not forever remained in your heart since the moment of my awakening, Dragonspeaker? Keep in your mind that I will remain in your heart... forever."
+          },
+          {
+            "type": "Gift: Liked",
+            "line": "Thank you. But it would be better if you became my present, too♪"
+          },
+          {
+            "type": "Additional 1",
+            "line": "Quite the impressive dragon.",
+            "conditions": {
+              "ships": [
+                20021
+              ],
+              "amount": 1
+            }
+          },
+          {
+            "type": "Additional 2",
+            "line": "Another dragon...?!",
+            "conditions": {
+              "ships": [
+                20029,
+                253,
+                623
+              ],
+              "amount": 1
+            }
+          }
+        ],
+        "ex": [
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Login",
+            "line": "Your breath, body temperature, heartbeat... Dragonspeaker, you truly mesmerize me. May I lie on top of you? Can I give you a little nibble? Don't worry, I'll be careful. I wouldn't want to break you, after all~♪"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 5",
+            "line": "Want me to help you out with anything? All it'll cost you is one kiss. Ahaha~♪"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 6",
+            "line": "Before I met you, I never thought being alone was a particularly painful thing... Dragonspeaker, you changed me. So, please don't leave me alone too much, okay? Please and thank you~♪"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 7",
+            "line": "Hmph... this book says that it's customary to say \"I love you\" every day and give roses to humans you love... \"Old-fashioned,\" you say? I think it's quite romantic."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 8",
+            "line": "Steel wings and a fiery breath are not enough to conquer the skies. A variety of supportive equipment is also required, including that coffee machine of yours... In other words, I've learned how to use everything~♪ Now then, how about trying some of the coffee I brewed?"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Headpat",
+            "line": "Which piece of clothing should I slice up this time~?"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Touch",
+            "line": "Oh? Have you finally grasped the importance of doing things one step at a time?"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Special Touch",
+            "line": "...Grab me from behind. Hurry~♥"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Return to Port",
+            "line": "Welcome back. Here, take this. These flowers are a token of my feelings... They're different from the last ones I gave you? Well of course. It's a surprise! It wouldn't be a surprise if they're the same~"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "MVP",
+            "line": "The Dragonspeaker and Max Immelmann - Let our names resound across these skies!"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Affinity: Love",
+            "line": "Come to think of it... A great dragon roused from its long slumber is the one who needs care and pampering. Won't you give some care and affection tonight... Dragonspeaker?♪"
+          }
+        ]
+      }
+    ]
+  },
+  "20046": {
+    "id": 20046,
+    "skins": [
+      {
+        "id": -1,
+        "lines": [
+          {
+            "type": "Description",
+            "line": "Destroyer - Orage."
+          },
+          {
+            "type": "Introduction",
+            "line": "Introduce myself? What a hassle... I am Orage, destroyer from Iris Libre, and messenger of the Holy See. Please feel to consult me for anything related to intel gathering, communications, and messenger duties."
+          },
+          {
+            "type": "Aquisition",
+            "line": "Orage, messenger of Iris Libre, reporting for duty. So, are there any troublesome missives for me to deliver? Just give me the destination, and I'll make sure it gets there no matter what. It's my job, after all."
+          },
+          {
+            "type": "Login",
+            "line": "Messenger Orage, reporting for duty. Work sucks, but someone has to do it. In any case, do your best, Commander."
+          },
+          {
+            "type": "Details",
+            "line": "Brewing storms, unseen reefs, lurking enemies... A messenger's path is fraught with obstacles. But no matter how many times I am impeded or injured, I will see my duty through to the end... because the delivery of messages is always paramount."
+          },
+          {
+            "type": "Idle 1",
+            "line": "The difficulty level of this new game I bought is fairly average. There are monsters and traps everywhere, your character dies in one hit, and you have to start from the beginning if you make a mistake, but it's easily clearable once you've learned the patterns. In fact, it only took me 2,315 tries."
+          },
+          {
+            "type": "Idle 2",
+            "line": "The Holy See's approval process is pretty efficient, but it can't keep up with my pace. If they trimmed down the paperwork, I wouldn't have to do as much overtime."
+          },
+          {
+            "type": "Idle 3",
+            "line": "...I should take some time off to hang out with my friends? I think I'll pass. I'd rather stew in my own thoughts than deal with all that noise."
+          },
+          {
+            "type": "Idle 4",
+            "line": "Hello? ...The port's drainage is blocked? I'll send someone to fix it... There's a cat stuck in the tree? Tell it to stay put. I'll send someone over right away... The restaurant's still losing money? Yes, I know, I've already sent the business improvement plan."
+          },
+          {
+            "type": "Headpat",
+            "line": "...You're praising me? ...Several of my comrades wanted to express their gratitude? It's no big deal. All I did was incidentally take out some threats while doing my job."
+          },
+          {
+            "type": "Touch",
+            "line": "...Oh. The instructions are all in my head. Search all you want, but you won't find anything on me."
+          },
+          {
+            "type": "Special Touch",
+            "line": "Is this... some form of entertainment between tasks...? Well, I guess I don't mind."
+          },
+          {
+            "type": "Task",
+            "line": "...Work is work. It's always been dry and annoying. But now they're even demanding \"professionalism\"? ...Well, I guess someone has to do it. Move over, I'll lend you a hand."
+          },
+          {
+            "type": "Task Complete",
+            "line": "Time to clock out. So, how do you feel? It's like a weight has been lifted off your shoulders, huh?"
+          },
+          {
+            "type": "Mail",
+            "line": "There's a message for you, Commander. Make sure you read it. Oh, no need to thank me. I'm simply doing my job."
+          },
+          {
+            "type": "Return to Port",
+            "line": "I'll compile the action report, so please submit all the data to me by the end of the workday."
+          },
+          {
+            "type": "Commission",
+            "line": "The commission team has returned. Please see the list of rewards. I've already cross-checked everything in advance."
+          },
+          {
+            "type": "Enhance",
+            "line": "This power... should help us weather the storm."
+          },
+          {
+            "type": "Start Battle",
+            "line": "Prepare yourself. A storm is approaching."
+          },
+          {
+            "type": "MVP",
+            "line": "News of your victory shall spread from east to west, your name rising above the masses."
+          },
+          {
+            "type": "Defeat",
+            "line": "Remember how this feels, then adapt. Next time, we must become stronger."
+          },
+          {
+            "type": "Skill",
+            "line": "The storm is here."
+          },
+          {
+            "type": "Low HP",
+            "line": "Now you've got my attention."
+          },
+          {
+            "type": "Affinity: Disappointed",
+            "line": "It'd be more efficient for me to work alone."
+          },
+          {
+            "type": "Affinity: Stranger",
+            "line": "Commander, it's getting late. You should go to bed. ...Don't make that face at me. I don't want a certain someone getting sick tomorrow and making it more work for me."
+          },
+          {
+            "type": "Affinity: Friendly",
+            "line": "Huh, didn't expect someone to stick with me through the entirety of this awful shift... So, got any plans after this? ...I was going to go to this one place. Wanna tag along?"
+          },
+          {
+            "type": "Affinity: Like",
+            "line": "Work always sucks, but for whatever reason, things aren't so bad with you around. I'm even starting to enjoy it a bit... See what you've done? You've made me develop unnecessary feelings towards work..."
+          },
+          {
+            "type": "Affinity: Love",
+            "line": "I-it's not like I was following you or anything, nor do I know where you're going... We just happened to bump into each other, and now that we're here, it's my job to keep a close eye on you... So, you'd better not get too far away from me."
+          },
+          {
+            "type": "Pledge",
+            "line": "Yes, I accept... I thought up sixteen different ways of confessing to you, but in the end, you still beat me to the punch... Ugh, what was all that agonizing even for...?"
+          },
+          {
+            "type": "Gift: Liked",
+            "line": "I wonder how I should return the favor... Urgh, what a pain... Just tell me what you want, Commander. Anything is fine."
+          },
+          {
+            "type": "Additional 1",
+            "line": "So, what kind of impossible challenge do you have for me this time?",
+            "conditions": {
+              "ships": [
+                453
+              ],
+              "amount": 1
+            }
+          }
+        ],
+        "ex": [
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Login",
+            "line": "Thanks to you, I'm able to endure this boring job... Now that you've seen how hard I'm working, how about a stroll with me afterwards?"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 5",
+            "line": "Ahem... Yaaay! I just cleared a no-damage hardcore run, the fastest time in the whole port! (I was loud enough for the Commander to hear me for sure, right...?)"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 6",
+            "line": "...Remember to stay hydrated. (If I show my considerate side like this, then the Commander is sure to feel warm and fuzzy all day!)"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 7",
+            "line": "Here, I made some food for you. (I secretly learned how to make fried rice the other day... If you like it, I'll make it for you every day.)"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 8",
+            "line": "...You'll be out for business for a few days, so you want me to behave myself? ...That's your way of saying hello to me? ...Well, whatever. Have fun. Doesn't bother me at all... (Ohmygod it bothers me so much...)"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Headpat",
+            "line": "Is it break time already? Huh, work seems to fly by these days for whatever reason..."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Touch",
+            "line": "...... (Commander's trying to get my attention... Am I about to be asked out on a date?! Umm... what's the best way of saying yes...?!)"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Special Touch",
+            "line": "*sigh*... If you're going to touch me, you might as well use both hands... It'll be more efficient that way..."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Return to Port",
+            "line": "...You're not hurt, are you? If you don't absolutely have to go, send me out instead. You don't have to leap into danger yourself every time..."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Affinity: Love",
+            "line": "I want more of you. I want more of your love... Hey, if I hold you tight like this... would you give me your everything?"
+          }
+        ]
+      }
+    ]
+  },
+  "20047": {
+    "id": 20047,
+    "skins": [
+      {
+        "id": -1,
+        "lines": [
+          {
+            "type": "Description",
+            "line": "Battleship - Valparaíso."
+          },
+          {
+            "type": "Introduction",
+            "line": "I am battleship Valparaíso, your everlasting harbor in the storm. Whenever you need support, a place to rest, or someone to confide in... Come to me. I will always be here for you."
+          },
+          {
+            "type": "Aquisition",
+            "line": "I am Valparaíso, the Ruby of Pedrería, matron of these distant sealanes. Having directed countless shipments of cargo to their rightful place, I, too, have found mine - here, by your side."
+          },
+          {
+            "type": "Login",
+            "line": "Commander, try touching this ruby... Let the gem's brilliance envelop you and wash away your worries and fatigue."
+          },
+          {
+            "type": "Details",
+            "line": "The ruby's brilliance, like the sunlight shimmering across the sea at dawn, brings serenity to a travel-weary heart. I hope that I can be that warm presence for you as well."
+          },
+          {
+            "type": "Idle 1",
+            "line": "The usual blend, I take it? Heehee... If you're tired, feel free to rest. You don't need to say anything at all. I'll be right here... by your side. After all, all we need is company sometimes."
+          },
+          {
+            "type": "Idle 2",
+            "line": "Commander, you hold the ruby's most wondrous brilliance in the palm of your hand. Has its healing aura... made you feel any better at all?"
+          },
+          {
+            "type": "Idle 3",
+            "line": "The whisper of the wind, the din of heavy machinery, the murmur of the waves... All these sounds can be heard from here, blending together into a melody most familiar to me."
+          },
+          {
+            "type": "Idle 4",
+            "line": "Every gemstone has its own \"tone.\" Our incantations connect us to them through the power of sound."
+          },
+          {
+            "type": "Headpat",
+            "line": "You need some comfort? Aww, come here and let me give you a big hug~"
+          },
+          {
+            "type": "Touch",
+            "line": "Hm? What would you like from me? Something warm to drink? A hug? ...Or perhaps, you'd like to hear more about this ruby?"
+          },
+          {
+            "type": "Special Touch",
+            "line": "Mgh... It's okay, you don't need to say another word. You're welcome to do whatever you want~"
+          },
+          {
+            "type": "Task",
+            "line": "You still have unfinished work? Don't worry. If you're tired, just take a break. You can always pick up where you left off later. I'll be with you, as long as it takes."
+          },
+          {
+            "type": "Task Complete",
+            "line": "You've finished your mission, yes? Now, allow me to handle the rest. I shall turn these numbers on a list into an indelible page in your story."
+          },
+          {
+            "type": "Mail",
+            "line": "You've got a message. Should I read it for you? I have plenty of free time~"
+          },
+          {
+            "type": "Return to Port",
+            "line": "No matter how turbulent the waves surrounding you might be, I shall bring you serenity with this ruby's brilliance."
+          },
+          {
+            "type": "Commission",
+            "line": "The commission team has returned. Shall we go check in on them? After all, cargo can only truly exert its power when delivered to the rightful hands at the rightful place."
+          },
+          {
+            "type": "Enhance",
+            "line": "Like a breakwater shielding a harbor, my protection has grown even stronger. Let me protect you from the perilous waves."
+          },
+          {
+            "type": "Start Battle",
+            "line": "You shall not sully my sealanes."
+          },
+          {
+            "type": "MVP",
+            "line": "All victories flow unto their rightful place."
+          },
+          {
+            "type": "Defeat",
+            "line": "Fret not. No sealane is devoid of storms."
+          },
+          {
+            "type": "Skill",
+            "line": "Hark, the ruby's song -"
+          },
+          {
+            "type": "Low HP",
+            "line": "It'll take more than some choppy waters to defeat me."
+          },
+          {
+            "type": "Affinity: Disappointed",
+            "line": "It's okay, there's no need to worry. You've already done what you can..."
+          },
+          {
+            "type": "Affinity: Stranger",
+            "line": "Commander, if you ever need anything, please do not hesitate to come see me. My door will always be open for you... There's no need to hold back."
+          },
+          {
+            "type": "Affinity: Friendly",
+            "line": "You've been coming to see me quite a lot lately. So, what can I get for you today? A healing ruby? Or perhaps... a nice and quiet place to help you gather your thoughts?"
+          },
+          {
+            "type": "Affinity: Like",
+            "line": "Commander... Lately, whenever I'm with you, I find myself wishing you'd stay a bit longer... And whenever you leave, I can't help but wonder when you'll be back... Do you think I'm being a bit greedy?"
+          },
+          {
+            "type": "Affinity: Love",
+            "line": "Should you want a friend, a lover, or a mother... Heehee~ I'll be whatever you want and support you whenever you need."
+          },
+          {
+            "type": "Pledge",
+            "line": "Commander, I'm so glad you chose me. From now on, no matter where you go, what you do, relying on me or on your own... I will always respect your decisions and walk by your side."
+          },
+          {
+            "type": "Gift: Liked",
+            "line": "This is... for me? Then, I shall return your feelings with this ruby."
+          }
+        ],
+        "ex": [
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Login",
+            "line": "Commander, whenever you open this door, I shall always be waiting for you - this is a harbor you can always dock in."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 5",
+            "line": "Commander, let me see your hand. Now... close your eyes, and follow my chant... Let your burdens melt away. Feel the pulsating ruby in your heart."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 6",
+            "line": "I've started to develop a habit - every time I hear footsteps, I can't help but wonder if it's you..."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 7",
+            "line": "The ore goes to the factory, the fur goes to the frigid north... Every shipment has a place where it belongs. I'm simply helping them find the way."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Idle 8",
+            "line": "Commander, will you listen to my song? In this song, I am a dream that offers you solace, the one always awaiting your return, and a presence who will always keep you in her thoughts."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Headpat",
+            "line": "Yes, I'm right here with you."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Touch",
+            "line": "The ruby will sulk if you simply give it a few pats every now and then, you know~?"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Special Touch",
+            "line": "Ahhn... Is this ruby... that fascinating to you?"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Return to Port",
+            "line": "Welcome back, Commander. Just lean against me and rest awhile - Shh, don't be in such in a hurry. Just come closer... yes, a bit more, just like that... Make yourself at ease. I'll always be here for you."
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "MVP",
+            "line": "Victory is ours. May I celebrate this moment in your warm embrace?"
+          },
+          {
+            "conditions": {
+              "oath": true
+            },
+            "type": "Affinity: Love",
+            "line": "A harbor is a cycle of greetings and partings. Cargo and ships come and go, yet there was never a moment where I thought something would stay with me forever - until I met you."
           }
         ]
       }

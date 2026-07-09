@@ -4429,5 +4429,27 @@
   "743": {
     "name": "Cherbourg",
     "aliases": []
+  },
+  "20043": {
+    "name": "Ducan",
+    "aliases": []
+  },
+  "20044": {
+    "name": "Takahashi",
+    "aliases": []
+  },
+  "20045": {
+    "name": "Max Immelmann",
+    "aliases": []
+  },
+  "20046": {
+    "name": "Orage",
+    "aliases": [
+      "Orange"
+    ]
+  },
+  "20047": {
+    "name": "Valparaíso",
+    "aliases": []
   }
 }

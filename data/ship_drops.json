@@ -22829,6 +22829,86 @@
     ],
     "events": []
   },
+  "20043": {
+    "id": 20043,
+    "timer": null,
+    "light": false,
+    "heavy": false,
+    "limited": null,
+    "special": false,
+    "other": [
+      15
+    ],
+    "maps": [],
+    "notes": [
+      "Available in Shipyard"
+    ],
+    "events": []
+  },
+  "20044": {
+    "id": 20044,
+    "timer": null,
+    "light": false,
+    "heavy": false,
+    "limited": null,
+    "special": false,
+    "other": [
+      15
+    ],
+    "maps": [],
+    "notes": [
+      "Available in Shipyard"
+    ],
+    "events": []
+  },
+  "20045": {
+    "id": 20045,
+    "timer": null,
+    "light": false,
+    "heavy": false,
+    "limited": null,
+    "special": false,
+    "other": [
+      15
+    ],
+    "maps": [],
+    "notes": [
+      "Available in Shipyard"
+    ],
+    "events": []
+  },
+  "20046": {
+    "id": 20046,
+    "timer": null,
+    "light": false,
+    "heavy": false,
+    "limited": null,
+    "special": false,
+    "other": [
+      15
+    ],
+    "maps": [],
+    "notes": [
+      "Available in Shipyard"
+    ],
+    "events": []
+  },
+  "20047": {
+    "id": 20047,
+    "timer": null,
+    "light": false,
+    "heavy": false,
+    "limited": null,
+    "special": false,
+    "other": [
+      15
+    ],
+    "maps": [],
+    "notes": [
+      "Available in Shipyard"
+    ],
+    "events": []
+  },
   "30001": {
     "id": 30001,
     "timer": null,

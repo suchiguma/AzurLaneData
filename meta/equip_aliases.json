@@ -5809,5 +5809,54 @@
   "151180": {
     "name": "Master of Laughter",
     "aliases": []
+  },
+  "5680": {
+    "name": "Prototype Triple 550mm Improved (Ammo Mod) Torpedo Mount",
+    "aliases": [
+      "550mm Triple Torpedo Mount Improved (Ammo Mod)",
+      "Triple 550 Improved",
+      "Orage torp"
+    ]
+  },
+  "11280": {
+    "name": "Prototype Twin 127mm Mk 16 Dual-Purpose Gun Mount",
+    "aliases": [
+      "Twin 127mm (5\"/54 Mk 16 Prototype)",
+      "Twin 127 Mk 16",
+      "Valparaiso secondary"
+    ]
+  },
+  "24420": {
+    "name": "Prototype Triple 419mm Mk. I Main Gun Mount",
+    "aliases": [
+      "Triple 419mm (Mk. I Prototype)",
+      "Ducan Gun",
+      "Triple 419"
+    ]
+  },
+  "35280": {
+    "name": "Prototype Quadruple 610mm Cruiser Torpedo Mount",
+    "aliases": [
+      "610mm Quadruple Torpedo Mount (Cruiser)",
+      "Cruiser Quad 610",
+      "Takahashi torp",
+      "Cruiser torp"
+    ]
+  },
+  "49080": {
+    "name": "Prototype Carrier-Based Ta 152 C-1/R14",
+    "aliases": [
+      "Focke-Wulf Ta 152 C-1/R14 (Carrier-based Prototype)",
+      "Ta 152",
+      "Ta 152 C-1/R14"
+    ]
+  },
+  "91400": {
+    "name": "Prototype Twin 127mm Mle 1948 Naval Gun",
+    "aliases": [
+      "Twin 127mm (Mle 1948 Prototype)",
+      "Orage Gun",
+      "Twin 127 Mle 1948"
+    ]
   }
 }

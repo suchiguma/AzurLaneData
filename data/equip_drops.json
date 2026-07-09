@@ -1318,6 +1318,14 @@
     "lab_from": [],
     "lab_to": []
   },
+  "5680": {
+    "id": 5680,
+    "locations": [
+      "Research (Series 9)"
+    ],
+    "lab_from": [],
+    "lab_to": []
+  },
   "6000": {
     "id": 6000,
     "locations": [
@@ -1550,6 +1558,14 @@
     "lab_from": [
       11260
     ],
+    "lab_to": []
+  },
+  "11280": {
+    "id": 11280,
+    "locations": [
+      "Research (Series 9)"
+    ],
+    "lab_from": [],
     "lab_to": []
   },
   "12000": {
@@ -3202,6 +3218,14 @@
     "lab_from": [],
     "lab_to": []
   },
+  "24420": {
+    "id": 24420,
+    "locations": [
+      "Research (Series 9)"
+    ],
+    "lab_from": [],
+    "lab_to": []
+  },
   "25000": {
     "id": 25000,
     "locations": [],
@@ -4526,6 +4550,14 @@
     "lab_to": [
       35340
     ]
+  },
+  "35280": {
+    "id": 35280,
+    "locations": [
+      "Research (Series 9)"
+    ],
+    "lab_from": [],
+    "lab_to": []
   },
   "35340": {
     "id": 35340,
@@ -6246,6 +6278,14 @@
       49040
     ]
   },
+  "49080": {
+    "id": 49080,
+    "locations": [
+      "Research (Series 9)"
+    ],
+    "lab_from": [],
+    "lab_to": []
+  },
   "85000": {
     "id": 85000,
     "locations": [
@@ -7448,6 +7488,14 @@
     "lab_to": [
       91220
     ]
+  },
+  "91400": {
+    "id": 91400,
+    "locations": [
+      "Research (Series 9)"
+    ],
+    "lab_from": [],
+    "lab_to": []
   },
   "95000": {
     "id": 95000,
