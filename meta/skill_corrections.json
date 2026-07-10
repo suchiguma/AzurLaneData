@@ -2450,7 +2450,7 @@
     "replace": [
       {
         "existing": "special HE ammo that ignores enemy shields (Special HE DMG modifier increases based on the skill's level)",
-        "with": "{special HE with $5 modifiers, 22 Speed, 100-110 range, 1% chance to inflict Standard Burn that ignored enemy shields|The bullet properties are not stated in game at all.}",
+        "with": "{special HE with $5 modifiers, 22 Speed, 100-110 range, 1% chance to inflict Standard Burn that ignores enemy shields|The bullet properties are not stated in game at all.}",
         "all": false
       }
     ],

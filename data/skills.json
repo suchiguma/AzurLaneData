@@ -61289,7 +61289,7 @@
     ]
   },
   "190110": {
-    "description": "During battle, increases this ship's FP by $1 and RLD by $2. The ammo type of this ship's equipped Secondary Gun is converted into $3 {special HE with $5 modifiers, 22 Speed, 100-110 range, 1% chance to inflict Standard Burn that ignored enemy shields|The bullet properties are not stated in game at all.}. Once per battle, either 20s after the start of battle or when this ship's secondary guns have fired 30 times: restores $4 of this ship's Max HP and increases the detection range and firing range of this ship's secondary guns to 105.",
+    "description": "During battle, increases this ship's FP by $1 and RLD by $2. The ammo type of this ship's equipped Secondary Gun is converted into $3 {special HE with $5 modifiers, 22 Speed, 100-110 range, 1% chance to inflict Standard Burn that ignores enemy shields|The bullet properties are not stated in game at all.}. Once per battle, either 20s after the start of battle or when this ship's secondary guns have fired 30 times: restores $4 of this ship's Max HP and increases the detection range and firing range of this ship's secondary guns to 105.",
     "opsi_description": null,
     "name": "Crystalline Hearth of Homecoming",
     "max": 10,
