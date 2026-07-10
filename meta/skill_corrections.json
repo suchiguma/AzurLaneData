@@ -1,40 +1,4 @@
 {
-  "190110": {
-    "replace": [
-      {
-        "existing": "special HE ammo that ignores enemy shields (Special HE DMG modifier increases based on the skill's level)",
-        "with": "{special HE with $5 modifiers, 22 Speed, 100-110 range, 1% chance to inflict Standard Burn that ignored enemy shields|The bullet properties are not stated in game at all.}",
-        "all": false
-      }
-    ],
-    "inject_value": [
-      {
-        "level": 1,
-        "index": 4,
-        "text": [
-          "120/80/70",
-          "120/82/70",
-          "120/82/72",
-          "120/85/72",
-          "120/85/75",
-          "120/90/75",
-          "120/90/80",
-          "120/95/80",
-          "120/95/85",
-          "120/100/90"
-        ]
-      }
-    ]
-  },
-  "1090490": {
-    "replace": [
-      {
-        "existing": "EVA by $1, AA by $1",
-        "with": "{EVA by $2, AA by $2|The game incorrectly claims 5.0% to 25.0%.}",
-        "all": false
-      }
-    ]
-  },
   "10": {
     "full": {
       "description": "{Every 5s, restores 6 HP to the most damaged ship.|In game description makes it sound like the ship with this gear/skill heals the HP instead.} {Effect does not stack.|Despite using the same name: This effect does stack with repair toolkits if applicable.}\n{Repair ships at limit break 0 have this skill built in.|The game does not mention this at all, this effectively makes cranes that grant the same or a lower Repair level useless.}",
@@ -107,99 +71,6 @@
       "values": []
     }
   },
-  "104060": {
-    "replace": [
-      {
-        "existing": "while sortied with Kizuna AI: $1 chance for the Airstrike to deal double DMG.",
-        "with": "while sortied with {any Kizuna AI faction ship|Clarifying that it can be any version of Kizuna AI or user of Pyoko-Pyoko.}: $1 chance {to increase this ship's damage dealt with equipped airplanes by 100% for 8s|Game incorrectly states that the airstrike deals double damage, correcting this is a bit pedantic, but it does mean consecutive airstrikes deal more damage, and airstrikes' stock bombs do not.}.",
-        "all": false
-      }
-    ]
-  },
-  "800650": {
-    "replace": [
-      {
-        "existing": "this skill's special barrage gains a SHS attack that creates \"Jamming Field - Arizona META\" (lasts 3s) at the location it hits.",
-        "with": "this skill's special barrage gains a SHS attack that creates \"Jamming Field - Arizona META\" (lasts 3s) at the location it hits {(only enemies hit by the initial impact are debuffed)|This behavior is different from the Jamming Field from her other skill, which catches all enemies who enter it.}.",
-        "all": false
-      }
-    ]
-  },
-  "15260": {
-    "replace": [
-      {
-        "existing": "and increases the ACC of your Main Fleet by $2 for 8s",
-        "with": "and increases the ACC of your Main Fleet by $2 {for the rest of the battle|The game incorrectly states a duration of 8 seconds.}",
-        "all": false
-      }
-    ]
-  },
-  "5111": {
-    "replace": [
-      {
-        "existing": "While this ship is in the first or last position in the Main Fleet:",
-        "with": "While this ship {is not the Flagship|The game mentions first or last position, which is ambiguous or wrong considering that the Flagship is first when creating the fleet and first in game code.}:",
-        "all": false
-      }
-    ]
-  },
-  "12400": {
-    "replace": [
-      {
-        "existing": "when placed in the first or last position in the Submarine Fleet:",
-        "with": "when {not placed in the Flagship position|The game mentions first or last position, which is ambiguous or wrong considering that the Flagship is first when creating the fleet and first in game code.} in the Submarine Fleet:",
-        "all": false
-      }
-    ]
-  },
-  "107080": {
-    "replace": [
-      {
-        "existing": "randomly chooses 1 other ship in your fleet and decreases her DMG taken by $2 for 30s.",
-        "with": "randomly chooses 1 other ship in your fleet and decreases {both this ship's and that ship's|The game does not mention it also applies to this ship.} DMG taken {by $1|This value is displayed incorrectly in game.} for 30s.",
-        "all": false
-      }
-    ]
-  },
-  "16730": {
-    "replace": [
-      {
-        "existing": "subtracts 50 HP from a random ship in your fleet and",
-        "with": "subtracts 50 HP from a random {other|The game does not mention that she will not target herself.} ship in your fleet and",
-        "all": false
-      }
-    ]
-  },
-  "16740": {
-    "remove_values": [
-      2
-    ],
-    "replace": [
-      {
-        "existing": "increases this ship's RLD by $2 and her DMG dealt by $3 until",
-        "with": "increases this ship's RLD by $2 and her {DMG dealt by 0.0%|The game intends to increase her overall damage dealt by 4.0% to 10.0%. Instead, it increases the bonus damage dealt modifier by that amount. Since this modifier starts at 0%, and percentage effects scale from the base value, the increase is always 0%.} until",
-        "all": false
-      }
-    ]
-  },
-  "17650": {
-    "replace": [
-      {
-        "existing": "increase your Gangut-class BBs' and your Northern Parliament Vanguard ships' DMG dealt by $3.",
-        "with": "increase your Gangut-class BBs' and your Northern Parliament Vanguard ships' DMG dealt {to that enemy|Omitting this wording could incorrectly imply that she increases damage dealt to all enemies.} by $3.",
-        "all": false
-      }
-    ]
-  },
-  "13950": {
-    "replace": [
-      {
-        "existing": "if there are no other Iron Blood ships: instead increases this ship's RLD by $3 and AA by $4 and further increases the proc chance of this ship's special airstrike by 30.0%.",
-        "with": "if there are no other Iron Blood ships {in your Main Fleet:|The game fails to mention that only a Main Fleet ship can prevent these buffs from applying. This condition is not mutually exclusive with the 3 or more Iron Blood ships condition.} increases this ship's RLD by $3 and {AVI|The game incorrectly states AA.} by $4 and further increases the proc chance of this ship's special airstrike by 30.0%.",
-        "all": false
-      }
-    ]
-  },
   "2041": {
     "replace": [
       {
@@ -250,6 +121,15 @@
     "opsi_set": "The following buffs are active as long as this ship is afloat:\n• At the start of the battle, increases AVI by $1 and RLD by $2 for all CVs and CVLs in the same fleet this ship is in, and decreases the load time of this ship's first Airstrike by $3.\n• At the start of the battle, increases RLD and AVI by $4 for all CVs and CVLs in the fleet this ship is NOT in. Effect does not stack with the same skill.",
     "original": "The following buffs are active as long as this ship is afloat: 1) At the start of the battle, increases AVI by $1 and RLD by $2 for all CVs and CVLs in the same fleet this ship is in, and decreases the load time of this ship's first Airstrike by $3. 2) At the start of the battle, increases RLD and AVI by $4 for all CVs and CVLs in the fleet this ship is NOT in. Effect does not stack with the same skill.",
     "original_opsi": "The following buffs are active as long as this ship is afloat: 1) At the start of the battle, increases AVI by $1 and RLD by $2 for all CVs and CVLs in the same fleet this ship is in, and decreases the load time of this ship's first Airstrike by $3. 2) At the start of the battle, increases RLD and AVI by $4 for all CVs and CVLs in the fleet this ship is NOT in. Effect does not stack with the same skill."
+  },
+  "5111": {
+    "replace": [
+      {
+        "existing": "While this ship is in the first or last position in the Main Fleet:",
+        "with": "While this ship {is not the Flagship|The game mentions first or last position, which is ambiguous or wrong considering that the Flagship is first when creating the fleet and first in game code.}:",
+        "all": false
+      }
+    ]
   },
   "6230": {
     "replace": [
@@ -653,6 +533,15 @@
       }
     ]
   },
+  "12400": {
+    "replace": [
+      {
+        "existing": "when placed in the first or last position in the Submarine Fleet:",
+        "with": "when {not placed in the Flagship position|The game mentions first or last position, which is ambiguous or wrong considering that the Flagship is first when creating the fleet and first in game code.} in the Submarine Fleet:",
+        "all": false
+      }
+    ]
+  },
   "12470": {
     "replace": [
       {
@@ -927,6 +816,15 @@
     "set": "Every 20s after the battle starts: fires a $1 special barrage (DMG is based on the skill's level) and deploys one of the following 2 types of shields, both lasting for $2s, chosen at random:\n• blocks 2 torpedoes,\n• blocks 10 shells.",
     "original": "Every 20s after the battle starts: fires a $1 special barrage (DMG is based on the skill's level) and deploys one of the following 2 types of shields, both lasting for $2s, chosen at random: 1) blocks 2 torpedoes, 2) blocks 10 shells."
   },
+  "13950": {
+    "replace": [
+      {
+        "existing": "if there are no other Iron Blood ships: instead increases this ship's RLD by $3 and AA by $4 and further increases the proc chance of this ship's special airstrike by 30.0%.",
+        "with": "if there are no other Iron Blood ships {in your Main Fleet:|The game fails to mention that only a Main Fleet ship can prevent these buffs from applying. This condition is not mutually exclusive with the 3 or more Iron Blood ships condition.} increases this ship's RLD by $3 and {AVI|The game incorrectly states AA.} by $4 and further increases the proc chance of this ship's special airstrike by 30.0%.",
+        "all": false
+      }
+    ]
+  },
   "14030": {
     "replace": [
       {
@@ -1031,6 +929,15 @@
   "15250": {
     "set": "Increases this ship's ACC by $1. When the battle starts:\n• if there are 3 ships afloat in your Vanguard, or there is 1 other Northern Parliament ship in your Vanguard: increases this ship's FP and TRP by $2;\n• if this ship is your sole Vanguard ship: instead increases this ship's AA and EVA by $3.",
     "original": "Increases this ship's ACC by $1. When the battle starts: 1) if there are 3 ships afloat in your Vanguard, or there is 1 other Northern Parliament ship in your Vanguard: increases this ship's FP and TRP by $2; if this ship is your sole Vanguard ship: instead increases this ship's AA and EVA by $3."
+  },
+  "15260": {
+    "replace": [
+      {
+        "existing": "and increases the ACC of your Main Fleet by $2 for 8s",
+        "with": "and increases the ACC of your Main Fleet by $2 {for the rest of the battle|The game incorrectly states a duration of 8 seconds.}",
+        "all": false
+      }
+    ]
   },
   "15310": {
     "set": "During a battle, when this ship's HP falls below 10.0% as a result of DMG taken:decreases this ship's Burn DMG taken by 50.0% and recovers 1.0% of her max HP every second for $1s. While this ship is afloat, when a fleet this ship is NOT in starts a battle:\n• if that fleet's Flagship is a BB: decreases the Main Gun Spread of all your BBs by 2;\n• 20s after the battle starts: fires a $2 special barrage that decreases the SPD of enemies hit by 40.0% for 5s (DMG is based on the skill's level).",
@@ -1166,6 +1073,27 @@
       }
     ]
   },
+  "16730": {
+    "replace": [
+      {
+        "existing": "subtracts 50 HP from a random ship in your fleet and",
+        "with": "subtracts 50 HP from a random {other|The game does not mention that she will not target herself.} ship in your fleet and",
+        "all": false
+      }
+    ]
+  },
+  "16740": {
+    "remove_values": [
+      2
+    ],
+    "replace": [
+      {
+        "existing": "increases this ship's RLD by $2 and her DMG dealt by $3 until",
+        "with": "increases this ship's RLD by $2 and her {DMG dealt by 0.0%|The game intends to increase her overall damage dealt by 4.0% to 10.0%. Instead, it increases the bonus damage dealt modifier by that amount. Since this modifier starts at 0%, and percentage effects scale from the base value, the increase is always 0%.} until",
+        "all": false
+      }
+    ]
+  },
   "16750": {
     "set": "Increases this ship's FP by $1 and RLD by $2. When this ship fires her Main Guns:\n• The first volley of the salvo is guaranteed to critically hit, and\n• fires a $3 special barrage (DMG is based on the skill's level) that creates zones on the battlefield that enemies are drawn to.",
     "original": "Increases this ship's FP by $1 and RLD by $2. When this ship fires her Main Guns: 1) The first volley of the salvo is guaranteed to critically hit, and 2) fires a $3 special barrage (DMG is based on the skill's level) that creates zones on the battlefield that enemies are drawn to."
@@ -1231,6 +1159,15 @@
   "17590": {
     "set": "When this ship finishes loading her Main Guns: $1 chance to fire a $2 special barrage (DMG is based on the skill's level). Inflicts the following effects for 6s to enemies hit by this barrage:\n• Decreases SPD by 40.0%;\n• Increases DMG taken by 8.0%;\n• When Sovetsky Soyuz attacks the enemy, increases her Crit Rate by $3.",
     "original": "When this ship finishes loading her Main Guns: $1 chance to fire a $2 special barrage (DMG is based on the skill's level). Inflicts the following effects for 6s to enemies hit by this barrage: 1) Decreases SPD by 40.0%; 2) Increases DMG taken by 8.0%; 3) When Sovetsky Soyuz attacks the enemy, increases her Crit Rate by $3."
+  },
+  "17650": {
+    "replace": [
+      {
+        "existing": "increase your Gangut-class BBs' and your Northern Parliament Vanguard ships' DMG dealt by $3.",
+        "with": "increase your Gangut-class BBs' and your Northern Parliament Vanguard ships' DMG dealt {to that enemy|Omitting this wording could incorrectly imply that she increases damage dealt to all enemies.} by $3.",
+        "all": false
+      }
+    ]
   },
   "17820": {
     "remove_values": [
@@ -1847,6 +1784,15 @@
     "set": "Every 15 seconds, switches between the following effects:\n• Reduces damage taken by $1,\n• Increases damage dealt by $2,\n• Restores $3 HP every 3 seconds.",
     "original": "Every 15 seconds, switches between the following effects: 1) Reduces damage taken by $1, 2) Increases damage dealt by $2, 3) Restores $3 HP every 3 seconds."
   },
+  "104060": {
+    "replace": [
+      {
+        "existing": "while sortied with Kizuna AI: $1 chance for the Airstrike to deal double DMG.",
+        "with": "while sortied with {any Kizuna AI faction ship|Clarifying that it can be any version of Kizuna AI or user of Pyoko-Pyoko.}: $1 chance {to increase this ship's damage dealt with equipped airplanes by 100% for 8s|Game incorrectly states that the airstrike deals double damage, correcting this is a bit pedantic, but it does mean consecutive airstrikes deal more damage, and airstrikes' stock bombs do not.}.",
+        "all": false
+      }
+    ]
+  },
   "105010": {
     "replace": [
       {
@@ -1895,6 +1841,15 @@
       {
         "existing": "20.0%",
         "with": "{2.0%|Game incorrectly states 20.0%.}",
+        "all": false
+      }
+    ]
+  },
+  "107080": {
+    "replace": [
+      {
+        "existing": "randomly chooses 1 other ship in your fleet and decreases her DMG taken by $2 for 30s.",
+        "with": "randomly chooses 1 other ship in your fleet and decreases {both this ship's and that ship's|The game does not mention it also applies to this ship.} DMG taken {by $1|This value is displayed incorrectly in game.} for 30s.",
         "all": false
       }
     ]
@@ -2483,11 +2438,44 @@
       }
     ]
   },
-  "1090450": {
-    "type": 1
+  "190030": {
+    "set": "When this ship launches an airstrike, $1 chance to activate the following effects:\n• Increases this ship's DMG dealt by $2 for 6s;\n• Increases this ship's Crit Rate by $3 and Crit DMG by $4 for 6s;\n• Fires a {$5|The game incorrectly states a non-sensical percentage here.} special barrage (DMG is based on the skill's level).",
+    "original": "When this ship launches an airstrike, $1 chance to activate the following effects:\n1) Increases this ship's DMG dealt by $2 for 6s;\n2) Increases this ship's Crit Rate by $3 and Crit DMG by $4 for 6s;\n3) Fires a $3 special barrage (DMG is based on the skill's level)."
   },
-  "1090180": {
-    "type": 1
+  "190050": {
+    "set": "Once per battle, this ship gains the following effects upon falling below 40.0% HP as a result of DMG taken:\n• Resets this ship's Detection Gauge and restores $1 of her Max HP;\n• Increases this ship's AA and EVA by $2 until the end of battle;\n• Reduces this ship's DMG taken by $3 until the end of battle.",
+    "original": "Once per battle, this ship gains the following effects upon falling below 40.0% HP as a result of DMG taken:\n1) Resets this ship's Detection Gauge and restores $1 of her Max HP;\n2) Increases this ship's AA and EVA by $2 until the end of battle;\n3) Reduces this ship's DMG taken by $3 until the end of battle."
+  },
+  "190110": {
+    "replace": [
+      {
+        "existing": "special HE ammo that ignores enemy shields (Special HE DMG modifier increases based on the skill's level)",
+        "with": "{special HE with $5 modifiers, 22 Speed, 100-110 range, 1% chance to inflict Standard Burn that ignored enemy shields|The bullet properties are not stated in game at all.}",
+        "all": false
+      }
+    ],
+    "inject_value": [
+      {
+        "level": 1,
+        "index": 4,
+        "text": [
+          "120/80/70",
+          "120/82/70",
+          "120/82/72",
+          "120/85/72",
+          "120/85/75",
+          "120/90/75",
+          "120/90/80",
+          "120/95/80",
+          "120/95/85",
+          "120/100/90"
+        ]
+      }
+    ]
+  },
+  "190140": {
+    "set": "Increases this ship's AA Gun Efficiency by $1 and your fleet's AA Range by +5. When 7 aircraft are shot down inside your fleet's AA Range, increases your Vanguard fleet's AA by $2 until the end of battle.\nAt the start of battle, this ship gains the following effects if equipping any pieces of Sakura Empire gear:\n• Whenever this ship finishes reloading her torpedoes: generates 1 shield that can absorb up to 6 bullets, lasting for 5s (repeated activations while the shield is active will only refresh the shield's duration);\n• Whenever this ship fires her torpedoes: fires an additional $3 torpedo barrage (DMG is based on the skill's level).",
+    "original": "Increases this ship's AA Gun Efficiency by $1 and your fleet's AA Range by +5. When 7 aircraft are shot down inside your fleet's AA Range, increases your Vanguard fleet's AA by $2 until the end of battle.\nAt the start of battle, this ship gains the following effects if equipping any pieces of Sakura Empire gear:\n1) Whenever this ship finishes reloading her torpedoes: generates 1 shield that can absorb up to 6 bullets, lasting for 5s (repeated activations while the shield is active will only refresh the shield's duration);\n2) Whenever this ship fires her torpedoes: fires an additional $3 torpedo barrage (DMG is based on the skill's level)."
   },
   "800081": {
     "type": 2
@@ -2561,6 +2549,15 @@
       {
         "existing": "and have their SPD decreased by $2; the SPD debuff fades over 3s upon leaving this field.",
         "with": "and have their SPD decreased by {50%|The game incorrectly handles part of this skill and the slow always remains 50%, additionally this also causes the fading effect to temporarily speed up the enemy.}; the SPD debuff fades over 3s {beginning immediately|The game incorrectly says the fade begins upon leaving this field}.",
+        "all": false
+      }
+    ]
+  },
+  "800650": {
+    "replace": [
+      {
+        "existing": "this skill's special barrage gains a SHS attack that creates \"Jamming Field - Arizona META\" (lasts 3s) at the location it hits.",
+        "with": "this skill's special barrage gains a SHS attack that creates \"Jamming Field - Arizona META\" (lasts 3s) at the location it hits {(only enemies hit by the initial impact are debuffed)|This behavior is different from the Jamming Field from her other skill, which catches all enemies who enter it.}.",
         "all": false
       }
     ]
@@ -2871,15 +2868,6 @@
       }
     ]
   },
-  "10150580": {
-    "replace": [
-      {
-        "existing": "Increases this ship's FP and ACC by $1 and changes her Armor Type to Medium Armor.",
-        "with": "{Increases this ship's FP and ACC by $1|The game additionally states that Ganji changes to Medium Armor, however that effect is bugged and her Armor remains unchanged.}.",
-        "all": false
-      }
-    ]
-  },
   "1019090": {
     "replace": [
       {
@@ -2917,6 +2905,9 @@
         "all": false
       }
     ]
+  },
+  "1090180": {
+    "type": 1
   },
   "1090190": {
     "replace": [
@@ -2972,6 +2963,27 @@
       {
         "existing": "$1",
         "with": "{50%|The game incorrectly handles part of this skill and the chance always remains 50%.}",
+        "all": false
+      }
+    ]
+  },
+  "1090450": {
+    "type": 1
+  },
+  "1090490": {
+    "replace": [
+      {
+        "existing": "EVA by $1, AA by $1",
+        "with": "{EVA by $2, AA by $2|The game incorrectly claims 5.0% to 25.0%.}",
+        "all": false
+      }
+    ]
+  },
+  "10150580": {
+    "replace": [
+      {
+        "existing": "Increases this ship's FP and ACC by $1 and changes her Armor Type to Medium Armor.",
+        "with": "{Increases this ship's FP and ACC by $1|The game additionally states that Ganji changes to Medium Armor, however that effect is bugged and her Armor remains unchanged.}.",
         "all": false
       }
     ]

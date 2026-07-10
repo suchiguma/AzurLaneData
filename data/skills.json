@@ -60925,7 +60925,7 @@
     ]
   },
   "190030": {
-    "description": "When this ship launches an airstrike, $1 chance to activate the following effects:\n1) Increases this ship's DMG dealt by $2 for 6s;\n2) Increases this ship's Crit Rate by $3 and Crit DMG by $4 for 6s;\n3) Fires a $3 special barrage (DMG is based on the skill's level).",
+    "description": "When this ship launches an airstrike, $1 chance to activate the following effects:\n• Increases this ship's DMG dealt by $2 for 6s;\n• Increases this ship's Crit Rate by $3 and Crit DMG by $4 for 6s;\n• Fires a {$5|The game incorrectly states a non-sensical percentage here.} special barrage (DMG is based on the skill's level).",
     "opsi_description": null,
     "name": "Skysplitting Wings of the Ancient Dragon",
     "max": 10,
@@ -61031,7 +61031,7 @@
     ]
   },
   "190050": {
-    "description": "Once per battle, this ship gains the following effects upon falling below 40.0% HP as a result of DMG taken:\n1) Resets this ship's Detection Gauge and restores $1 of her Max HP;\n2) Increases this ship's AA and EVA by $2 until the end of battle;\n3) Reduces this ship's DMG taken by $3 until the end of battle.",
+    "description": "Once per battle, this ship gains the following effects upon falling below 40.0% HP as a result of DMG taken:\n• Resets this ship's Detection Gauge and restores $1 of her Max HP;\n• Increases this ship's AA and EVA by $2 until the end of battle;\n• Reduces this ship's DMG taken by $3 until the end of battle.",
     "opsi_description": null,
     "name": "Steel-Shattering Scales",
     "max": 10,
@@ -61454,7 +61454,7 @@
     ]
   },
   "190140": {
-    "description": "Increases this ship's AA Gun Efficiency by $1 and your fleet's AA Range by +5. When 7 aircraft are shot down inside your fleet's AA Range, increases your Vanguard fleet's AA by $2 until the end of battle.\nAt the start of battle, this ship gains the following effects if equipping any pieces of Sakura Empire gear:\n1) Whenever this ship finishes reloading her torpedoes: generates 1 shield that can absorb up to 6 bullets, lasting for 5s (repeated activations while the shield is active will only refresh the shield's duration);\n2) Whenever this ship fires her torpedoes: fires an additional $3 torpedo barrage (DMG is based on the skill's level).",
+    "description": "Increases this ship's AA Gun Efficiency by $1 and your fleet's AA Range by +5. When 7 aircraft are shot down inside your fleet's AA Range, increases your Vanguard fleet's AA by $2 until the end of battle.\nAt the start of battle, this ship gains the following effects if equipping any pieces of Sakura Empire gear:\n• Whenever this ship finishes reloading her torpedoes: generates 1 shield that can absorb up to 6 bullets, lasting for 5s (repeated activations while the shield is active will only refresh the shield's duration);\n• Whenever this ship fires her torpedoes: fires an additional $3 torpedo barrage (DMG is based on the skill's level).",
     "opsi_description": null,
     "name": "Webwoven Zen Grotto",
     "max": 10,
