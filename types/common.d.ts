@@ -111,6 +111,7 @@ export type Nation =
 9 | // vichiya dominion
 10 | // iris orthodoxy
 11 | // kingdom of tulipa
+12 | // liga de pedrería
 94 | // United Countil (speculation)
 95 | // X (speculation)
 96 | // tempesta

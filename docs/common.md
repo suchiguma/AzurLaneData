@@ -17,7 +17,7 @@ Rarity is a numeric value with the range `[1, 6]` where each number represents a
 
 # Nation
 
-Rarity is a numeric value with the **three** ranges `[0, 11]`, `[94, 99]` and `[101, 115]` where each
+Rarity is a numeric value with the **three** ranges `[0, 12]`, `[94, 99]` and `[101, 115]` where each
 number represents an in-game Nation (missing values do not exit in game):
 
 | Value |   Label    |           Description            |
@@ -34,7 +34,8 @@ number represents an in-game Nation (missing values do not exit in game):
 |   9   |  Vichiya   |      Vichiya Dominion (MNF)      |
 |  10   |   French   |          Iris Orthodoxy          |
 |  11   |   Dutch    |    Kingdom of Tulipa (HNLMS)     |
-| 12-93 |    N/A     |         Do not exist yet         |
+|  12   |   Dutch    |         Liga de Pedrería         |
+| 13-93 |    N/A     |         Do not exist yet         |
 |  94   |  Council   |   United Council (speculation)   |
 |  95   |     X      |         X (speculation)          |
 |  96   |  Tempesta  |          Tempesta (MOT)          |

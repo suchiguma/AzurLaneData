@@ -1150,6 +1150,74 @@
       }
     ]
   },
+  "14009": {
+    "id": 14009,
+    "name": "Prototype Weapon Blueprint S9",
+    "description": "Can be converted to one of the following SR gear blueprints:\nPrototype Triple 419mm Mk. I Main Gun Mount T0 Design\nPrototype Twin 127mm Mk 16 Dual-Purpose Gun Mount T0 Design\nPrototype Quadruple 610mm Cruiser Torpedo Mount T0 Design\nPrototype Twin 127mm Mle 1948 Naval Gun T0 Design\nPrototype Triple 550mm Improved (Ammo Mod) Torpedo Mount",
+    "type": 13,
+    "icon": "props/14009",
+    "rarity": 5,
+    "locations": [
+      "Research (Series 9)"
+    ],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": [
+      {
+        "id": 24420,
+        "type": 1,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": true,
+        "icon": "equips/24420",
+        "name": "Design for T0 Triple 419mm Mk. I Main Gun"
+      },
+      {
+        "id": 11280,
+        "type": 1,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": true,
+        "icon": "equips/11280",
+        "name": "Design for T0 Twin 127mm Mk 16 Dual-Purpose Gun"
+      },
+      {
+        "id": 35280,
+        "type": 1,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": true,
+        "icon": "equips/35280",
+        "name": "Design for T0 Quadruple 610mm Cruiser Torpedo"
+      },
+      {
+        "id": 91400,
+        "type": 1,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": true,
+        "icon": "equips/51400",
+        "name": "Design for T0 Twin 127mm Mle 1948 Naval Gun"
+      },
+      {
+        "id": 5680,
+        "type": 1,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": true,
+        "icon": "equips/5680",
+        "name": "Design for T0 Triple 550mm Improved (Ammo Mod) Torpedo"
+      }
+    ]
+  },
   "15001": {
     "id": 15001,
     "name": "Medal of Honor",
@@ -3345,6 +3413,40 @@
     "rarity": 5,
     "locations": [
       "PR Catch Up (Series 7)"
+    ],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "20108": {
+    "id": 20108,
+    "name": "Combat Data Pack - Series 8",
+    "description": "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 8 Combat Data Collection missions.(Can be converted into Prototype Cores).",
+    "type": 18,
+    "icon": "props/20108",
+    "rarity": 5,
+    "locations": [
+      "PR Catch Up (Series 8)"
+    ],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "20109": {
+    "id": 20109,
+    "name": "Combat Data Pack - Series 9",
+    "description": "A compilation of experimental data from the Research Department, can be used to add 10,000 EXP towards PR Series 9 Combat Data Collection missions.(Can be converted into Prototype Cores).",
+    "type": 18,
+    "icon": "props/20109",
+    "rarity": 5,
+    "locations": [
+      "Unobtainable"
     ],
     "servers": [
       "EN",
@@ -53363,6 +53465,100 @@
       }
     ]
   },
+  "40086": {
+    "id": 40086,
+    "name": "PR Voucher & Blueprint Bundle - Series 6",
+    "description": "Contains loads of valuable rewards.",
+    "type": 17,
+    "icon": "chargeicon/tech6_promotion",
+    "rarity": 5,
+    "locations": [
+      "IAP Purchase"
+    ],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": [
+      {
+        "id": 40145,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/research6",
+        "name": "PR Voucher - Series 6"
+      },
+      {
+        "id": 42050,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 343,
+        "blueprint": false,
+        "icon": "props/42050",
+        "name": "General Blueprint - Series 6"
+      }
+    ]
+  },
+  "40087": {
+    "id": 40087,
+    "name": "PR Voucher Pack - Series 6",
+    "description": "Contains loads of valuable rewards.",
+    "type": 17,
+    "icon": "chargeicon/tech6_normal",
+    "rarity": 5,
+    "locations": [
+      "IAP Purchase"
+    ],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": [
+      {
+        "id": 40145,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/research6",
+        "name": "PR Voucher - Series 6"
+      }
+    ]
+  },
+  "40088": {
+    "id": 40088,
+    "name": "PR Blueprint Pack - Series 6",
+    "description": "Contains loads of valuable rewards.",
+    "type": 17,
+    "icon": "chargeicon/tech6_promotion",
+    "rarity": 5,
+    "locations": [
+      "IAP Purchase"
+    ],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": [
+      {
+        "id": 42050,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 343,
+        "blueprint": false,
+        "icon": "props/42050",
+        "name": "General Blueprint - Series 6"
+      }
+    ]
+  },
   "40100": {
     "id": 40100,
     "name": "Promise Crate",
@@ -54491,6 +54687,74 @@
         "blueprint": false,
         "icon": "props/ring",
         "name": "Promise Ring"
+      }
+    ]
+  },
+  "40145": {
+    "id": 40145,
+    "name": "PR Voucher - Series 6",
+    "description": "Use this item to instantly unlock any Series 6 PR ship at Development Level 1. Eligible ships:\nShimanto, Felix Schultz, Flandre\nIf you already have all eligible ships, using this item will instead give you the following: \nCombat Data Pack - Series 6 x 300\nT3 General Retrofit Blueprint x 5\nT2 General Retrofit Blueprint x 10\nWisdom Cube x 5\nCoins x 20,000",
+    "type": 17,
+    "icon": "props/research6",
+    "rarity": 5,
+    "locations": [
+      "IAP Purchase"
+    ],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": [
+      {
+        "id": 20106,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 300,
+        "blueprint": false,
+        "icon": "props/20106",
+        "name": "Combat Data Pack - Series 6"
+      },
+      {
+        "id": 30133,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 5,
+        "blueprint": false,
+        "icon": "props/30133",
+        "name": "T3 General Retrofit Blueprint"
+      },
+      {
+        "id": 30132,
+        "type": 0,
+        "linkable": true,
+        "rarity": 4,
+        "amount": 10,
+        "blueprint": false,
+        "icon": "props/30132",
+        "name": "T2 General Retrofit Blueprint"
+      },
+      {
+        "id": 20001,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 5,
+        "blueprint": false,
+        "icon": "props/20001",
+        "name": "Wisdom Cube"
+      },
+      {
+        "id": 59001,
+        "type": 0,
+        "linkable": true,
+        "rarity": 2,
+        "amount": 20000,
+        "blueprint": false,
+        "icon": "props/gold",
+        "name": "Coins"
       }
     ]
   },
@@ -58640,6 +58904,597 @@
       "CN"
     ],
     "contains": [
+      {
+        "id": 42072,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42072",
+        "name": "Blueprint - Mecklenburg"
+      },
+      {
+        "id": 42075,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42075",
+        "name": "Blueprint - Gouden Leeuw"
+      },
+      {
+        "id": 42063,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42063",
+        "name": "Blueprint - Napoli"
+      },
+      {
+        "id": 42064,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42064",
+        "name": "Blueprint - Admiral Nakhimov"
+      },
+      {
+        "id": 42051,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42051",
+        "name": "Blueprint - Kearsarge"
+      },
+      {
+        "id": 42054,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42054",
+        "name": "Blueprint - Hindenburg"
+      },
+      {
+        "id": 42041,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42041",
+        "name": "Blueprint - Plymouth"
+      },
+      {
+        "id": 42045,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42045",
+        "name": "Blueprint - Brest"
+      },
+      {
+        "id": 42032,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42032",
+        "name": "Blueprint - Hakuryuu"
+      },
+      {
+        "id": 42033,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42033",
+        "name": "Blueprint - Ägir"
+      },
+      {
+        "id": 42022,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42022",
+        "name": "Blueprint - Drake"
+      },
+      {
+        "id": 42014,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42014",
+        "name": "Blueprint - Azuma"
+      },
+      {
+        "id": 42015,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42015",
+        "name": "Blueprint - Friedrich der Große"
+      }
+    ]
+  },
+  "42080": {
+    "id": 42080,
+    "name": "General Blueprint - Series 9",
+    "description": "Can be converted to a Blueprint for any of the Series 1 through 9 Priority ships.",
+    "type": 13,
+    "icon": "props/42080",
+    "rarity": 5,
+    "locations": [
+      "Research (Series 9)"
+    ],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": [
+      {
+        "id": 42081,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42081",
+        "name": "Blueprint - Duncan"
+      },
+      {
+        "id": 42082,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42082",
+        "name": "Blueprint - Takahashi"
+      },
+      {
+        "id": 42084,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42084",
+        "name": "Blueprint - Orage"
+      },
+      {
+        "id": 42071,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42071",
+        "name": "Blueprint - Kansas"
+      },
+      {
+        "id": 42073,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42073",
+        "name": "Blueprint - Vittorio Cuniberti"
+      },
+      {
+        "id": 42074,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42074",
+        "name": "Blueprint - Dmitri Donskoi"
+      },
+      {
+        "id": 42061,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42061",
+        "name": "Blueprint - Halford"
+      },
+      {
+        "id": 42062,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42062",
+        "name": "Blueprint - Daisen"
+      },
+      {
+        "id": 42065,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42065",
+        "name": "Blueprint - Bayard"
+      },
+      {
+        "id": 42052,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42052",
+        "name": "Blueprint - Shimanto"
+      },
+      {
+        "id": 42053,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42053",
+        "name": "Blueprint - Felix Schultz"
+      },
+      {
+        "id": 42055,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42055",
+        "name": "Blueprint - Flandre"
+      },
+      {
+        "id": 42042,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42042",
+        "name": "Blueprint - Prinz Rupprecht"
+      },
+      {
+        "id": 42043,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42043",
+        "name": "Blueprint - Harbin"
+      },
+      {
+        "id": 42044,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42044",
+        "name": "Blueprint - Chkalov"
+      },
+      {
+        "id": 42031,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42031",
+        "name": "Blueprint - Anchorage"
+      },
+      {
+        "id": 42034,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42034",
+        "name": "Blueprint - August von Parseval"
+      },
+      {
+        "id": 42035,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42035",
+        "name": "Blueprint - Marco Polo"
+      },
+      {
+        "id": 42021,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42021",
+        "name": "Blueprint - Cheshire"
+      },
+      {
+        "id": 42023,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42023",
+        "name": "Blueprint - Mainz"
+      },
+      {
+        "id": 42024,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42024",
+        "name": "Blueprint - Odin"
+      },
+      {
+        "id": 42025,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42025",
+        "name": "Blueprint - Champagne"
+      },
+      {
+        "id": 42011,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42011",
+        "name": "Blueprint - Seattle"
+      },
+      {
+        "id": 42012,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42012",
+        "name": "Blueprint - Georgia"
+      },
+      {
+        "id": 42013,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42013",
+        "name": "Blueprint - Kitakaze"
+      },
+      {
+        "id": 42016,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42016",
+        "name": "Blueprint - Gascogne"
+      },
+      {
+        "id": 42001,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42001",
+        "name": "Blueprint - Neptune"
+      },
+      {
+        "id": 42002,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42002",
+        "name": "Blueprint - Monarch"
+      },
+      {
+        "id": 42003,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42003",
+        "name": "Blueprint - Ibuki"
+      },
+      {
+        "id": 42004,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42004",
+        "name": "Blueprint - Izumo"
+      },
+      {
+        "id": 42005,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42005",
+        "name": "Blueprint - Roon"
+      },
+      {
+        "id": 42006,
+        "type": 0,
+        "linkable": true,
+        "rarity": 5,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42006",
+        "name": "Blueprint - Saint Louis"
+      }
+    ]
+  },
+  "42081": {
+    "id": 42081,
+    "name": "Blueprint - Duncan",
+    "description": "Blueprint for Royal Navy BB Duncan.\nCan be used in the Shipyard to increase Duncan's stats once you've finished developing her.",
+    "type": 12,
+    "icon": "props/42081",
+    "rarity": 5,
+    "locations": [
+      "Research (Series 9)"
+    ],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "42082": {
+    "id": 42082,
+    "name": "Blueprint - Takahashi",
+    "description": "Blueprint for Sakura Empire CL Takahashi.\nCan be used in the Shipyard to increase Takahashi's stats once you've finished developing her.",
+    "type": 12,
+    "icon": "props/42082",
+    "rarity": 5,
+    "locations": [
+      "Research (Series 9)"
+    ],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "42083": {
+    "id": 42083,
+    "name": "Blueprint - Max Immelmann",
+    "description": "Blueprint for Iron Blood CV Max Immelmann.\nCan be used in the Shipyard to increase Max Immelmann's stats once you've finished developing her.",
+    "type": 12,
+    "icon": "props/42083",
+    "rarity": 6,
+    "locations": [
+      "Research (Series 9)"
+    ],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "42084": {
+    "id": 42084,
+    "name": "Blueprint - Orage",
+    "description": "Blueprint for Iris Libre DD Orage.\nCan be used in the Shipyard to increase Orage's stats once you've finished developing her.",
+    "type": 12,
+    "icon": "props/42084",
+    "rarity": 5,
+    "locations": [
+      "Research (Series 9)"
+    ],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "42085": {
+    "id": 42085,
+    "name": "Blueprint - Valparaíso",
+    "description": "Blueprint for Liga de Pedrería BB Valparaíso.\nCan be used in the Shipyard to increase Valparaíso's stats once you've finished developing her.",
+    "type": 12,
+    "icon": "props/42085",
+    "rarity": 6,
+    "locations": [
+      "Research (Series 9)"
+    ],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": []
+  },
+  "42086": {
+    "id": 42086,
+    "name": "Special General Blueprint - Series 9",
+    "description": "Can be converted to a Blueprint for any of the Series 2 through 9 DR ships.",
+    "type": 13,
+    "icon": "props/42086",
+    "rarity": 6,
+    "locations": [
+      "Research (Series 9)"
+    ],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "contains": [
+      {
+        "id": 42083,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42083",
+        "name": "Blueprint - Max Immelmann"
+      },
+      {
+        "id": 42085,
+        "type": 0,
+        "linkable": true,
+        "rarity": 6,
+        "amount": 1,
+        "blueprint": false,
+        "icon": "props/42085",
+        "name": "Blueprint - Valparaíso"
+      },
       {
         "id": 42072,
         "type": 0,

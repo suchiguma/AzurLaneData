@@ -77387,7 +77387,7 @@
       [
         {
           "name": "The Shadow Within the Lantern",
-          "description": "Some time after the start of battle, an eldritch creature will appear within the lantern's vicinity, affecting both your ships and the enemy in mysterious ways.\nWhile the eldritch creature is present, all ships on the battlefield has slightly reduced ACC.",
+          "description": "some time after the start of battle, an eldritch creature will appear within the lantern's vicinity, affecting both your ships and the enemy in mysterious ways.\nWhile the eldritch creature is present, all ships on the battlefield has slightly reduced ACC.",
           "color": 2
         }
       ]
@@ -78397,5 +78397,245 @@
     "time_limit": 180,
     "type": 5,
     "id": 1916
+  },
+  "coalation_1719101_wa_16511301": {
+    "name": "Frostfall (War Archive): EASY: Jamming Breakthrough",
+    "acv": -1,
+    "opsi": false,
+    "boss": {
+      "id": 16511301,
+      "hull": 2,
+      "nation": 99,
+      "name": "Obstructer-class Type III",
+      "stats": {
+        "hp": 3600,
+        "fp": 40,
+        "trp": 60,
+        "avi": 0,
+        "aa": 125,
+        "hit": 18,
+        "eva": 14,
+        "spd": 20,
+        "luck": 0,
+        "armor": 0
+      },
+      "cld": [
+        5.5,
+        10,
+        10
+      ],
+      "level": 20,
+      "offense_boost": 0,
+      "survival_boost": 0,
+      "tactics_boost": 0,
+      "icon": "qinraozhe",
+      "prio": 95
+    },
+    "buffs": [],
+    "expo_id": 1719101,
+    "dungeon_id": 1719101,
+    "time_limit": 180,
+    "type": 19,
+    "id": 1917
+  },
+  "coalation_1719201_wa_16512301": {
+    "name": "Frostfall (War Archive): NORMAL: Anomaly Disruption (Boss #1)",
+    "acv": -1,
+    "opsi": false,
+    "boss": {
+      "id": 16512301,
+      "hull": 2,
+      "nation": 99,
+      "name": "Obstructer-class Type III",
+      "stats": {
+        "hp": 16840,
+        "fp": 102,
+        "trp": 142,
+        "avi": 0,
+        "aa": 260,
+        "hit": 24,
+        "eva": 24,
+        "spd": 20,
+        "luck": 8,
+        "armor": 0
+      },
+      "cld": [
+        5.5,
+        10,
+        10
+      ],
+      "level": 50,
+      "offense_boost": 0,
+      "survival_boost": 0,
+      "tactics_boost": 0,
+      "icon": "qinraozhe",
+      "prio": 95
+    },
+    "buffs": [],
+    "expo_id": 1719201,
+    "dungeon_id": 1719201,
+    "time_limit": 180,
+    "type": 19,
+    "id": 1918
+  },
+  "coalation_1719202_wa_16512302": {
+    "name": "Frostfall (War Archive): NORMAL: Anomaly Disruption (Boss #2)",
+    "acv": -1,
+    "opsi": false,
+    "boss": {
+      "id": 16512302,
+      "hull": 5,
+      "nation": 99,
+      "name": "Omitter α",
+      "stats": {
+        "hp": 24680,
+        "fp": 160,
+        "trp": 0,
+        "avi": 0,
+        "aa": 180,
+        "hit": 26,
+        "eva": 16,
+        "spd": 18,
+        "luck": 8,
+        "armor": 2
+      },
+      "cld": [
+        5.5,
+        10,
+        10
+      ],
+      "level": 50,
+      "offense_boost": 0,
+      "survival_boost": 0,
+      "tactics_boost": 0,
+      "icon": "qingchuzhe",
+      "prio": 95
+    },
+    "buffs": [],
+    "expo_id": 1719202,
+    "dungeon_id": 1719202,
+    "time_limit": 180,
+    "type": 19,
+    "id": 1919
+  },
+  "coalation_1719301_wa_16513301": {
+    "name": "Frostfall (War Archive): HARD: Research Base Recapture (Boss #1)",
+    "acv": -1,
+    "opsi": false,
+    "boss": {
+      "id": 16513301,
+      "hull": 2,
+      "nation": 99,
+      "name": "Obstructor Mk. IV",
+      "stats": {
+        "hp": 89250,
+        "fp": 198,
+        "trp": 260,
+        "avi": 0,
+        "aa": 350,
+        "hit": 43,
+        "eva": 41,
+        "spd": 18,
+        "luck": 25,
+        "armor": 0
+      },
+      "cld": [
+        5.5,
+        10,
+        10
+      ],
+      "level": 100,
+      "offense_boost": 0,
+      "survival_boost": 0,
+      "tactics_boost": 0,
+      "icon": "qinraozhe_iv",
+      "prio": 95
+    },
+    "buffs": [],
+    "expo_id": 1719301,
+    "dungeon_id": 1719301,
+    "time_limit": 180,
+    "type": 19,
+    "id": 1920
+  },
+  "coalation_1719302_wa_16513302": {
+    "name": "Frostfall (War Archive): HARD: Research Base Recapture (Boss #2)",
+    "acv": -1,
+    "opsi": false,
+    "boss": {
+      "id": 16513302,
+      "hull": 3,
+      "nation": 7,
+      "name": "Special Pawn - Kursk",
+      "stats": {
+        "hp": 98260,
+        "fp": 240,
+        "trp": 190,
+        "avi": 0,
+        "aa": 265,
+        "hit": 68,
+        "eva": 45,
+        "spd": 16,
+        "luck": 25,
+        "armor": 0
+      },
+      "cld": [
+        5.5,
+        8,
+        8
+      ],
+      "level": 100,
+      "offense_boost": 0,
+      "survival_boost": 0,
+      "tactics_boost": 0,
+      "icon": "kuersike",
+      "prio": 95
+    },
+    "buffs": [],
+    "expo_id": 1719302,
+    "dungeon_id": 1719302,
+    "time_limit": 180,
+    "type": 19,
+    "id": 1921
+  },
+  "coalation_1719303_wa_16513303": {
+    "name": "Frostfall (War Archive): HARD: Research Base Recapture (Boss #3)",
+    "acv": -1,
+    "opsi": false,
+    "boss": {
+      "id": 16513303,
+      "hull": 5,
+      "nation": 99,
+      "name": "Omitter β",
+      "stats": {
+        "hp": 115000,
+        "fp": 300,
+        "trp": 0,
+        "avi": 0,
+        "aa": 460,
+        "hit": 51,
+        "eva": 39,
+        "spd": 18,
+        "luck": 25,
+        "armor": 2
+      },
+      "cld": [
+        5.5,
+        10,
+        10
+      ],
+      "level": 100,
+      "offense_boost": 0,
+      "survival_boost": 0,
+      "tactics_boost": 0,
+      "icon": "qingchuzhe",
+      "prio": 95
+    },
+    "buffs": [],
+    "expo_id": 1719303,
+    "dungeon_id": 1719303,
+    "time_limit": 180,
+    "type": 19,
+    "id": 1922
   }
 }

@@ -18882,7 +18882,8 @@
           "All Weapon efficiencies +5%"
         ]
       }
-    ]
+    ],
+    "unique_aug": 15520
   },
   "40": {
     "global_name": "USS Salt Lake City",
@@ -253489,7 +253490,8 @@
           "All Weapon efficiencies +5%"
         ]
       }
-    ]
+    ],
+    "unique_aug": 15500
   },
   "490": {
     "global_name": "RN Vincenzo Gioberti",
@@ -457150,6 +457152,2669 @@
           "Limit Break to 6 Stars",
           "Skill \"Bombing Raid III\" changes to \"Bombing Raid IV\"",
           "Skill \"Siren Killer II\" changes to \"Siren Killer III\"",
+          "Slot 1 efficiency +15%"
+        ]
+      }
+    ]
+  },
+  "20043": {
+    "global_name": "HMS Duncan",
+    "id": 20043,
+    "gid": 29906,
+    "flags": 4,
+    "name": "Duncan",
+    "rarity": 5,
+    "tags": [
+      "plan-class"
+    ],
+    "gift_dislike": [
+      180006,
+      180007
+    ],
+    "date": 1783580400000,
+    "nation": 2,
+    "hull": 4,
+    "skills": [
+      [
+        190080,
+        190090
+      ],
+      [
+        190080,
+        190090,
+        19000
+      ],
+      [
+        190080,
+        190090,
+        19001
+      ],
+      [
+        190080,
+        190090,
+        19002
+      ]
+    ],
+    "specific_buff": null,
+    "slots": [
+      [
+        {
+          "types": [
+            4
+          ],
+          "default_id": 103,
+          "efficiency": 1.15,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 1
+        },
+        {
+          "types": [
+            1,
+            2
+          ],
+          "default_id": 100,
+          "efficiency": 1.8,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            6,
+            21
+          ],
+          "default_id": 104,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            4
+          ],
+          "default_id": 103,
+          "efficiency": 1.2,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 1
+        },
+        {
+          "types": [
+            1,
+            2
+          ],
+          "default_id": 100,
+          "efficiency": 1.8,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            6,
+            21
+          ],
+          "default_id": 104,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            4
+          ],
+          "default_id": 103,
+          "efficiency": 1.3,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 1
+        },
+        {
+          "types": [
+            1,
+            2
+          ],
+          "default_id": 100,
+          "efficiency": 1.8,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            6,
+            21
+          ],
+          "default_id": 104,
+          "efficiency": 1.1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            4
+          ],
+          "default_id": 103,
+          "efficiency": 1.45,
+          "base": 3,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 1
+        },
+        {
+          "types": [
+            1,
+            2
+          ],
+          "default_id": 100,
+          "efficiency": 1.8,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            6,
+            21
+          ],
+          "default_id": 104,
+          "efficiency": 1.1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ]
+    ],
+    "stats": [
+      {
+        "armor": 1,
+        "hp": 1492,
+        "fp": 70,
+        "trp": 52,
+        "aa": 63,
+        "rld": 62,
+        "hit": 24,
+        "eva": 9,
+        "spd": 32,
+        "range": null,
+        "scaling": {
+          "hp": 40181,
+          "fp": 1453,
+          "trp": 1116,
+          "aa": 1329,
+          "rld": 430,
+          "hit": 383,
+          "eva": 238
+        }
+      },
+      {
+        "armor": 1,
+        "hp": 1492,
+        "fp": 70,
+        "trp": 52,
+        "aa": 63,
+        "rld": 62,
+        "hit": 24,
+        "eva": 9,
+        "spd": 32,
+        "range": null,
+        "scaling": {
+          "hp": 40181,
+          "fp": 1453,
+          "trp": 1116,
+          "aa": 1329,
+          "rld": 430,
+          "hit": 383,
+          "eva": 238
+        },
+        "strengthen": {
+          "fp": 15.3,
+          "trp": 11.4,
+          "rld": 6.9
+        }
+      },
+      {
+        "armor": 1,
+        "hp": 1492,
+        "fp": 70,
+        "trp": 52,
+        "aa": 63,
+        "rld": 62,
+        "hit": 24,
+        "eva": 9,
+        "spd": 32,
+        "range": null,
+        "scaling": {
+          "hp": 40181,
+          "fp": 1453,
+          "trp": 1116,
+          "aa": 1329,
+          "rld": 430,
+          "hit": 383,
+          "eva": 238
+        },
+        "strengthen": {
+          "fp": 51,
+          "trp": 38,
+          "rld": 23
+        }
+      },
+      {
+        "armor": 1,
+        "hp": 1492,
+        "fp": 70,
+        "trp": 52,
+        "aa": 63,
+        "rld": 62,
+        "hit": 24,
+        "eva": 9,
+        "spd": 32,
+        "range": null,
+        "scaling": {
+          "hp": 40181,
+          "fp": 1453,
+          "trp": 1116,
+          "aa": 1329,
+          "rld": 430,
+          "hit": 383,
+          "eva": 238
+        },
+        "strengthen": {
+          "fp": 102,
+          "trp": 76,
+          "rld": 46
+        }
+      }
+    ],
+    "research": [
+      {},
+      {
+        "stats": {
+          "hp": 364,
+          "aa": 15
+        }
+      },
+      {
+        "stats": {
+          "hp": 1092,
+          "aa": 46
+        }
+      },
+      {
+        "stats": {
+          "hp": 2183,
+          "aa": 92
+        }
+      }
+    ],
+    "lb_data": [
+      {
+        "stars": 3,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 0,
+        "id": 299061,
+        "oil": {
+          "start": 1,
+          "end": 16
+        }
+      },
+      {
+        "stars": 4,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 10,
+        "id": 299062,
+        "oil": {
+          "start": 1,
+          "end": 16
+        }
+      },
+      {
+        "stars": 5,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 30,
+        "id": 299063,
+        "oil": {
+          "start": 1,
+          "end": 16
+        }
+      },
+      {
+        "stars": 6,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 70,
+        "id": 299064,
+        "oil": {
+          "start": 1,
+          "end": 16
+        }
+      }
+    ],
+    "fleet_tech": {
+      "collect": {
+        "pts": 26,
+        "stat": "hp",
+        "value": 2,
+        "hulls": [
+          4,
+          5,
+          10
+        ]
+      },
+      "level": {
+        "pts": 39,
+        "stat": "fp",
+        "value": 1,
+        "hulls": [
+          4,
+          5,
+          10
+        ]
+      },
+      "limit_break": {
+        "pts": 52
+      },
+      "sort_data": {
+        "class": 20403,
+        "index": 0
+      }
+    },
+    "skins": [],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "icon": "dengken",
+    "class": "Duncan",
+    "upgrade_text": [
+      {
+        "descriptor": "Dev 5",
+        "value": [
+          "+364 base hp",
+          "+15 base aa",
+          "Slot 1 efficiency +5%"
+        ]
+      },
+      {
+        "descriptor": "Dev 10",
+        "value": [
+          "Limit Break to 4 Stars",
+          "Unlock Skill \"Siren Killer I\"",
+          "Slot 1 mounts +1"
+        ]
+      },
+      {
+        "descriptor": "Dev 15",
+        "value": [
+          "+728 base hp",
+          "+31 base aa",
+          "Slot 3 efficiency +10%"
+        ]
+      },
+      {
+        "descriptor": "Dev 20",
+        "value": [
+          "Limit Break to 5 Stars",
+          "Skill \"Siren Killer I\" changes to \"Siren Killer II\"",
+          "Slot 2 mounts +1",
+          "Slot 1 efficiency +10%"
+        ]
+      },
+      {
+        "descriptor": "Dev 25",
+        "value": [
+          "+1091 base hp",
+          "+46 base aa"
+        ]
+      },
+      {
+        "descriptor": "Dev 30",
+        "value": [
+          "Limit Break to 6 Stars",
+          "Skill \"Siren Killer II\" changes to \"Siren Killer III\"",
+          "Slot 1 mounts +1",
+          "Slot 1 efficiency +15%"
+        ]
+      }
+    ]
+  },
+  "20044": {
+    "global_name": "IJN Takahashi",
+    "id": 20044,
+    "gid": 39908,
+    "flags": 4,
+    "name": "Takahashi",
+    "rarity": 5,
+    "tags": [
+      "plan-class",
+      "takahashi"
+    ],
+    "gift_dislike": [
+      180004,
+      180006
+    ],
+    "date": 1783580400000,
+    "nation": 3,
+    "hull": 2,
+    "skills": [
+      [
+        190130,
+        190140
+      ],
+      [
+        190130,
+        190140,
+        19000,
+        30651
+      ],
+      [
+        190130,
+        190140,
+        19001,
+        30651
+      ],
+      [
+        190130,
+        190140,
+        19002,
+        30652
+      ]
+    ],
+    "specific_buff": null,
+    "slots": [
+      [
+        {
+          "types": [
+            2
+          ],
+          "default_id": 101,
+          "efficiency": 1.1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            5
+          ],
+          "default_id": 106,
+          "efficiency": 1.2,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            6
+          ],
+          "default_id": 104,
+          "efficiency": 1.65,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            2
+          ],
+          "default_id": 101,
+          "efficiency": 1.1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            5
+          ],
+          "default_id": 106,
+          "efficiency": 1.25,
+          "base": 2,
+          "preload": 0,
+          "parallel": 2
+        },
+        {
+          "types": [
+            6
+          ],
+          "default_id": 104,
+          "efficiency": 1.65,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            2
+          ],
+          "default_id": 101,
+          "efficiency": 1.3,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            5
+          ],
+          "default_id": 106,
+          "efficiency": 1.35,
+          "base": 2,
+          "preload": 1,
+          "parallel": 2
+        },
+        {
+          "types": [
+            6
+          ],
+          "default_id": 104,
+          "efficiency": 1.65,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            2
+          ],
+          "default_id": 101,
+          "efficiency": 1.3,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            5
+          ],
+          "default_id": 106,
+          "efficiency": 1.5,
+          "base": 2,
+          "preload": 2,
+          "parallel": 2
+        },
+        {
+          "types": [
+            6
+          ],
+          "default_id": 104,
+          "efficiency": 1.75,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ]
+    ],
+    "stats": [
+      {
+        "armor": 0,
+        "hp": 1040,
+        "fp": 36,
+        "trp": 83,
+        "aa": 94,
+        "rld": 62,
+        "hit": 59,
+        "eva": 30,
+        "spd": 34.5,
+        "asw": 47,
+        "range": null,
+        "scaling": {
+          "hp": 27710,
+          "fp": 734,
+          "trp": 1688,
+          "aa": 1886,
+          "rld": 430,
+          "hit": 896,
+          "eva": 554,
+          "asw": 537
+        }
+      },
+      {
+        "armor": 0,
+        "hp": 1040,
+        "fp": 36,
+        "trp": 83,
+        "aa": 94,
+        "rld": 62,
+        "hit": 59,
+        "eva": 30,
+        "spd": 34.5,
+        "asw": 59,
+        "range": null,
+        "scaling": {
+          "hp": 27710,
+          "fp": 734,
+          "trp": 1688,
+          "aa": 1886,
+          "rld": 430,
+          "hit": 896,
+          "eva": 554,
+          "asw": 537
+        },
+        "strengthen": {
+          "fp": 7.95,
+          "trp": 18.3,
+          "rld": 6.9
+        }
+      },
+      {
+        "armor": 0,
+        "hp": 1040,
+        "fp": 36,
+        "trp": 83,
+        "aa": 94,
+        "rld": 62,
+        "hit": 59,
+        "eva": 30,
+        "spd": 34.5,
+        "asw": 82,
+        "range": null,
+        "scaling": {
+          "hp": 27710,
+          "fp": 734,
+          "trp": 1688,
+          "aa": 1886,
+          "rld": 430,
+          "hit": 896,
+          "eva": 554,
+          "asw": 537
+        },
+        "strengthen": {
+          "fp": 26.5,
+          "trp": 61,
+          "rld": 23
+        }
+      },
+      {
+        "armor": 0,
+        "hp": 1040,
+        "fp": 36,
+        "trp": 83,
+        "aa": 94,
+        "rld": 62,
+        "hit": 59,
+        "eva": 30,
+        "spd": 34.5,
+        "asw": 116,
+        "range": null,
+        "scaling": {
+          "hp": 27710,
+          "fp": 734,
+          "trp": 1688,
+          "aa": 1886,
+          "rld": 430,
+          "hit": 896,
+          "eva": 554,
+          "asw": 537
+        },
+        "strengthen": {
+          "fp": 53,
+          "trp": 122,
+          "rld": 46
+        }
+      }
+    ],
+    "ghost_equipment": [
+      [
+        {
+          "id": 147,
+          "level": 0,
+          "efficiency": 1
+        }
+      ],
+      [
+        {
+          "id": 147,
+          "level": 0,
+          "efficiency": 1
+        }
+      ],
+      [
+        {
+          "id": 147,
+          "level": 0,
+          "efficiency": 1
+        }
+      ],
+      [
+        {
+          "id": 147,
+          "level": 0,
+          "efficiency": 1
+        }
+      ]
+    ],
+    "research": [
+      {},
+      {
+        "stats": {
+          "hp": 254,
+          "aa": 23
+        }
+      },
+      {
+        "stats": {
+          "hp": 761,
+          "aa": 69
+        }
+      },
+      {
+        "stats": {
+          "hp": 1522,
+          "aa": 139
+        }
+      }
+    ],
+    "lb_data": [
+      {
+        "stars": 3,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 0,
+        "id": 399081,
+        "oil": {
+          "start": 1,
+          "end": 12
+        }
+      },
+      {
+        "stars": 4,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 10,
+        "id": 399082,
+        "oil": {
+          "start": 1,
+          "end": 12
+        }
+      },
+      {
+        "stars": 5,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 30,
+        "id": 399083,
+        "oil": {
+          "start": 1,
+          "end": 12
+        }
+      },
+      {
+        "stars": 6,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 70,
+        "id": 399084,
+        "oil": {
+          "start": 1,
+          "end": 12
+        }
+      }
+    ],
+    "fleet_tech": {
+      "collect": {
+        "pts": 16,
+        "stat": "aa",
+        "value": 1,
+        "hulls": [
+          2
+        ]
+      },
+      "level": {
+        "pts": 25,
+        "stat": "trp",
+        "value": 1,
+        "hulls": [
+          2
+        ]
+      },
+      "limit_break": {
+        "pts": 33
+      },
+      "sort_data": {
+        "class": 30208,
+        "index": 0
+      }
+    },
+    "skins": [],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "icon": "gaoliang",
+    "class": "Takahashi",
+    "upgrade_text": [
+      {
+        "descriptor": "Dev 5",
+        "value": [
+          "+254 base hp",
+          "+23 base aa",
+          "Slot 2 mounts +1"
+        ]
+      },
+      {
+        "descriptor": "Dev 10",
+        "value": [
+          "Limit Break to 4 Stars",
+          "Unlock Skill \"All Out Assault I\"",
+          "Unlock Skill \"Siren Killer I\"",
+          "Slot 2 Parallel Reloading +1",
+          "Slot 2 efficiency +5%"
+        ]
+      },
+      {
+        "descriptor": "Dev 15",
+        "value": [
+          "+507 base hp",
+          "+46 base aa",
+          "Slot 2 preload +1",
+          "Slot 1 efficiency +10%"
+        ]
+      },
+      {
+        "descriptor": "Dev 20",
+        "value": [
+          "Limit Break to 5 Stars",
+          "Skill \"Siren Killer I\" changes to \"Siren Killer II\"",
+          "Slot 1 mounts +1",
+          "Slot 1 & Slot 2 efficiencies +10%"
+        ]
+      },
+      {
+        "descriptor": "Dev 25",
+        "value": [
+          "+761 base hp",
+          "+70 base aa",
+          "Slot 3 efficiency +10%"
+        ]
+      },
+      {
+        "descriptor": "Dev 30",
+        "value": [
+          "Limit Break to 6 Stars",
+          "Skill \"All Out Assault I\" changes to \"All Out Assault II\"",
+          "Skill \"Siren Killer II\" changes to \"Siren Killer III\"",
+          "Slot 2 efficiency +15%",
+          "Slot 2 preload +1"
+        ]
+      }
+    ]
+  },
+  "20045": {
+    "global_name": "KMS Max Immelmann",
+    "id": 20045,
+    "gid": 49911,
+    "flags": 4,
+    "name": "Max Immelmann",
+    "rarity": 6,
+    "tags": [
+      "plan-class"
+    ],
+    "gift_dislike": [
+      180002,
+      180008
+    ],
+    "date": 1783580400000,
+    "nation": 4,
+    "hull": 7,
+    "skills": [
+      [
+        190030,
+        190040,
+        190050
+      ],
+      [
+        190030,
+        190040,
+        190050,
+        19000
+      ],
+      [
+        190030,
+        190040,
+        190050,
+        19001
+      ],
+      [
+        190030,
+        190040,
+        190050,
+        19002
+      ]
+    ],
+    "specific_buff": null,
+    "slots": [
+      [
+        {
+          "types": [
+            7
+          ],
+          "default_id": 121,
+          "efficiency": 1.45,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 1
+        },
+        {
+          "types": [
+            9
+          ],
+          "default_id": 123,
+          "efficiency": 1.4,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 1
+        },
+        {
+          "types": [
+            8
+          ],
+          "default_id": 122,
+          "efficiency": 1.4,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            7
+          ],
+          "default_id": 121,
+          "efficiency": 1.45,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 1
+        },
+        {
+          "types": [
+            9
+          ],
+          "default_id": 123,
+          "efficiency": 1.45,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 1
+        },
+        {
+          "types": [
+            8
+          ],
+          "default_id": 122,
+          "efficiency": 1.45,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            7
+          ],
+          "default_id": 121,
+          "efficiency": 1.55,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 2
+        },
+        {
+          "types": [
+            9,
+            8
+          ],
+          "default_id": 123,
+          "efficiency": 1.55,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 2
+        },
+        {
+          "types": [
+            8
+          ],
+          "default_id": 122,
+          "efficiency": 1.45,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 2
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            7
+          ],
+          "default_id": 121,
+          "efficiency": 1.6,
+          "base": 3,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 2
+        },
+        {
+          "types": [
+            9,
+            8
+          ],
+          "default_id": 123,
+          "efficiency": 1.6,
+          "base": 3,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 2
+        },
+        {
+          "types": [
+            8,
+            7
+          ],
+          "default_id": 122,
+          "efficiency": 1.6,
+          "base": 3,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 2
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ]
+    ],
+    "stats": [
+      {
+        "armor": 1,
+        "hp": 1531,
+        "aa": 57,
+        "avi": 96,
+        "rld": 48,
+        "hit": 37,
+        "eva": 16,
+        "spd": 32,
+        "range": null,
+        "scaling": {
+          "hp": 39222,
+          "aa": 1214,
+          "avi": 1927,
+          "rld": 335,
+          "hit": 595,
+          "eva": 358
+        }
+      },
+      {
+        "armor": 1,
+        "hp": 1531,
+        "aa": 57,
+        "avi": 96,
+        "rld": 48,
+        "hit": 37,
+        "eva": 16,
+        "spd": 32,
+        "range": null,
+        "scaling": {
+          "hp": 39222,
+          "aa": 1214,
+          "avi": 1927,
+          "rld": 335,
+          "hit": 595,
+          "eva": 358
+        },
+        "strengthen": {
+          "avi": 21.3,
+          "rld": 5.4
+        }
+      },
+      {
+        "armor": 1,
+        "hp": 1531,
+        "aa": 57,
+        "avi": 96,
+        "rld": 48,
+        "hit": 37,
+        "eva": 16,
+        "spd": 32,
+        "range": null,
+        "scaling": {
+          "hp": 39222,
+          "aa": 1214,
+          "avi": 1927,
+          "rld": 335,
+          "hit": 595,
+          "eva": 358
+        },
+        "strengthen": {
+          "avi": 71,
+          "rld": 18
+        }
+      },
+      {
+        "armor": 1,
+        "hp": 1531,
+        "aa": 57,
+        "avi": 96,
+        "rld": 48,
+        "hit": 37,
+        "eva": 16,
+        "spd": 32,
+        "range": null,
+        "scaling": {
+          "hp": 39222,
+          "aa": 1214,
+          "avi": 1927,
+          "rld": 335,
+          "hit": 595,
+          "eva": 358
+        },
+        "strengthen": {
+          "avi": 142,
+          "rld": 36
+        }
+      }
+    ],
+    "research": [
+      {},
+      {
+        "stats": {
+          "hp": 373,
+          "aa": 14
+        }
+      },
+      {
+        "stats": {
+          "hp": 1120,
+          "aa": 42
+        }
+      },
+      {
+        "stats": {
+          "hp": 2240,
+          "aa": 83
+        }
+      }
+    ],
+    "lb_data": [
+      {
+        "stars": 3,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 0,
+        "id": 499111,
+        "oil": {
+          "start": 1,
+          "end": 17
+        }
+      },
+      {
+        "stars": 4,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 10,
+        "id": 499112,
+        "oil": {
+          "start": 1,
+          "end": 17
+        }
+      },
+      {
+        "stars": 5,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 30,
+        "id": 499113,
+        "oil": {
+          "start": 1,
+          "end": 17
+        }
+      },
+      {
+        "stars": 6,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 70,
+        "id": 499114,
+        "oil": {
+          "start": 1,
+          "end": 17
+        }
+      }
+    ],
+    "fleet_tech": {
+      "collect": {
+        "pts": 62,
+        "stat": "hp",
+        "value": 1,
+        "hulls": [
+          6,
+          7
+        ]
+      },
+      "level": {
+        "pts": 92,
+        "stat": "avi",
+        "value": 2,
+        "hulls": [
+          6,
+          7
+        ]
+      },
+      "limit_break": {
+        "pts": 124
+      },
+      "sort_data": {
+        "class": 40704,
+        "index": 0
+      }
+    },
+    "skins": [],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "icon": "makesi",
+    "class": "Max Immelmann",
+    "upgrade_text": [
+      {
+        "descriptor": "Dev 5",
+        "value": [
+          "+373 base hp",
+          "+14 base aa",
+          "Slot 2 & Slot 3 mounts +1"
+        ]
+      },
+      {
+        "descriptor": "Dev 10",
+        "value": [
+          "Limit Break to 4 Stars",
+          "Unlock Skill \"Siren Killer I\"",
+          "Slot 2 & Slot 3 efficiencies +5%"
+        ]
+      },
+      {
+        "descriptor": "Dev 15",
+        "value": [
+          "+747 base hp",
+          "+28 base aa",
+          "Slot 1 mounts +1",
+          "Slot 2 efficiency +10%"
+        ]
+      },
+      {
+        "descriptor": "Dev 20",
+        "value": [
+          "Limit Break to 5 Stars",
+          "Skill \"Siren Killer I\" changes to \"Siren Killer II\"",
+          "Hangar Capacity +1",
+          "Slot 2 types change to {Dive Bomber|9}, {Torpedo Bomber|8}",
+          "Slot 1 efficiency +10%"
+        ]
+      },
+      {
+        "descriptor": "Dev 25",
+        "value": [
+          "+1120 base hp",
+          "+41 base aa",
+          "All Weapon mounts +1",
+          "Slot 3 efficiency +10%"
+        ]
+      },
+      {
+        "descriptor": "Dev 30",
+        "value": [
+          "Limit Break to 6 Stars",
+          "Skill \"Siren Killer II\" changes to \"Siren Killer III\"",
+          "Slot 3 types change to {Torpedo Bomber|8}, {Fighter|7}",
+          "All Weapon efficiencies +5%"
+        ]
+      }
+    ]
+  },
+  "20046": {
+    "global_name": "FFNF Orage",
+    "id": 20046,
+    "gid": 89905,
+    "flags": 4,
+    "name": "Orage",
+    "rarity": 5,
+    "tags": [
+      "plan-class"
+    ],
+    "gift_dislike": [
+      180007,
+      180008
+    ],
+    "date": 1783580400000,
+    "nation": 8,
+    "hull": 1,
+    "skills": [
+      [
+        190060,
+        190070
+      ],
+      [
+        190060,
+        190070,
+        19000,
+        30631
+      ],
+      [
+        190060,
+        190070,
+        19001,
+        30631
+      ],
+      [
+        190060,
+        190070,
+        19002,
+        30632
+      ]
+    ],
+    "specific_buff": "aux",
+    "slots": [
+      [
+        {
+          "types": [
+            1
+          ],
+          "default_id": 100,
+          "efficiency": 1.6,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            5
+          ],
+          "default_id": 106,
+          "efficiency": 1.25,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            6
+          ],
+          "default_id": 104,
+          "efficiency": 0.65,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            1
+          ],
+          "default_id": 100,
+          "efficiency": 1.65,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            5
+          ],
+          "default_id": 106,
+          "efficiency": 1.25,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            6
+          ],
+          "default_id": 104,
+          "efficiency": 0.65,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            1
+          ],
+          "default_id": 100,
+          "efficiency": 1.65,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            5
+          ],
+          "default_id": 106,
+          "efficiency": 1.35,
+          "base": 2,
+          "preload": 1,
+          "parallel": 1
+        },
+        {
+          "types": [
+            6
+          ],
+          "default_id": 104,
+          "efficiency": 0.75,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            1
+          ],
+          "default_id": 100,
+          "efficiency": 1.7,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            5
+          ],
+          "default_id": 106,
+          "efficiency": 1.4,
+          "base": 2,
+          "preload": 1,
+          "parallel": 1
+        },
+        {
+          "types": [
+            6
+          ],
+          "default_id": 104,
+          "efficiency": 0.8,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10,
+            14
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ]
+    ],
+    "stats": [
+      {
+        "armor": 0,
+        "hp": 425,
+        "fp": 26,
+        "trp": 87,
+        "aa": 31,
+        "rld": 80,
+        "hit": 70,
+        "eva": 77,
+        "spd": 40.8,
+        "asw": 50,
+        "range": null,
+        "scaling": {
+          "hp": 10892,
+          "fp": 570,
+          "trp": 1760,
+          "aa": 679,
+          "rld": 554,
+          "hit": 1134,
+          "eva": 1228,
+          "asw": 573
+        }
+      },
+      {
+        "armor": 0,
+        "hp": 425,
+        "fp": 26,
+        "trp": 87,
+        "aa": 31,
+        "rld": 80,
+        "hit": 70,
+        "eva": 77,
+        "spd": 40.8,
+        "asw": 62,
+        "range": null,
+        "scaling": {
+          "hp": 10892,
+          "fp": 570,
+          "trp": 1760,
+          "aa": 679,
+          "rld": 554,
+          "hit": 1134,
+          "eva": 1228,
+          "asw": 573
+        },
+        "strengthen": {
+          "fp": 5.7,
+          "trp": 19.2,
+          "rld": 8.85
+        }
+      },
+      {
+        "armor": 0,
+        "hp": 425,
+        "fp": 26,
+        "trp": 87,
+        "aa": 31,
+        "rld": 80,
+        "hit": 70,
+        "eva": 77,
+        "spd": 40.8,
+        "asw": 87,
+        "range": null,
+        "scaling": {
+          "hp": 10892,
+          "fp": 570,
+          "trp": 1760,
+          "aa": 679,
+          "rld": 554,
+          "hit": 1134,
+          "eva": 1228,
+          "asw": 573
+        },
+        "strengthen": {
+          "fp": 19,
+          "trp": 64,
+          "rld": 29.5
+        }
+      },
+      {
+        "armor": 0,
+        "hp": 425,
+        "fp": 26,
+        "trp": 87,
+        "aa": 31,
+        "rld": 80,
+        "hit": 70,
+        "eva": 77,
+        "spd": 40.8,
+        "asw": 125,
+        "range": null,
+        "scaling": {
+          "hp": 10892,
+          "fp": 570,
+          "trp": 1760,
+          "aa": 679,
+          "rld": 554,
+          "hit": 1134,
+          "eva": 1228,
+          "asw": 573
+        },
+        "strengthen": {
+          "fp": 38,
+          "trp": 128,
+          "rld": 59
+        }
+      }
+    ],
+    "ghost_equipment": [
+      [
+        {
+          "id": 141,
+          "level": 0,
+          "efficiency": 1
+        }
+      ],
+      [
+        {
+          "id": 141,
+          "level": 0,
+          "efficiency": 1
+        }
+      ],
+      [
+        {
+          "id": 141,
+          "level": 0,
+          "efficiency": 1
+        }
+      ],
+      [
+        {
+          "id": 141,
+          "level": 0,
+          "efficiency": 1
+        }
+      ]
+    ],
+    "research": [
+      {},
+      {
+        "stats": {
+          "hp": 104,
+          "aa": 8
+        }
+      },
+      {
+        "stats": {
+          "hp": 311,
+          "aa": 23
+        }
+      },
+      {
+        "stats": {
+          "hp": 622,
+          "aa": 46
+        }
+      }
+    ],
+    "lb_data": [
+      {
+        "stars": 3,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 0,
+        "id": 899051,
+        "oil": {
+          "start": 1,
+          "end": 11
+        }
+      },
+      {
+        "stars": 4,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 10,
+        "id": 899052,
+        "oil": {
+          "start": 1,
+          "end": 11
+        }
+      },
+      {
+        "stars": 5,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 30,
+        "id": 899053,
+        "oil": {
+          "start": 1,
+          "end": 11
+        }
+      },
+      {
+        "stars": 6,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 70,
+        "id": 899054,
+        "oil": {
+          "start": 1,
+          "end": 11
+        }
+      }
+    ],
+    "fleet_tech": {
+      "collect": {
+        "pts": 18,
+        "stat": "hp",
+        "value": 1,
+        "hulls": [
+          1,
+          20,
+          21
+        ]
+      },
+      "level": {
+        "pts": 26,
+        "stat": "trp",
+        "value": 1,
+        "hulls": [
+          1,
+          20,
+          21
+        ]
+      },
+      "limit_break": {
+        "pts": 36
+      },
+      "sort_data": {
+        "class": 80105,
+        "index": 0
+      }
+    },
+    "skins": [],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "icon": "baofengyu",
+    "aliases": [
+      "Orange"
+    ],
+    "class": "Orage",
+    "upgrade_text": [
+      {
+        "descriptor": "Dev 5",
+        "value": [
+          "+104 base hp",
+          "+8 base aa",
+          "Slot 2 mounts +1"
+        ]
+      },
+      {
+        "descriptor": "Dev 10",
+        "value": [
+          "Limit Break to 4 Stars",
+          "Unlock Skill \"All Out Assault I\"",
+          "Unlock Skill \"Siren Killer I\"",
+          "Slot 1 efficiency +5%"
+        ]
+      },
+      {
+        "descriptor": "Dev 15",
+        "value": [
+          "+207 base hp",
+          "+15 base aa",
+          "Slot 2 preload +1",
+          "Slot 2 efficiency +10%"
+        ]
+      },
+      {
+        "descriptor": "Dev 20",
+        "value": [
+          "Limit Break to 5 Stars",
+          "Skill \"Siren Killer I\" changes to \"Siren Killer II\"",
+          "Slot 3 efficiency +10%"
+        ]
+      },
+      {
+        "descriptor": "Dev 25",
+        "value": [
+          "+311 base hp",
+          "+23 base aa"
+        ]
+      },
+      {
+        "descriptor": "Dev 30",
+        "value": [
+          "Limit Break to 6 Stars",
+          "Skill \"All Out Assault I\" changes to \"All Out Assault II\"",
+          "Skill \"Siren Killer II\" changes to \"Siren Killer III\"",
+          "All Weapon efficiencies +5%"
+        ]
+      }
+    ]
+  },
+  "20047": {
+    "global_name": "Valparaíso",
+    "id": 20047,
+    "gid": 129901,
+    "flags": 4,
+    "name": "Valparaíso",
+    "rarity": 6,
+    "tags": [
+      "plan-class",
+      "valskill",
+      "valparaiso"
+    ],
+    "gift_dislike": [
+      180004,
+      180009
+    ],
+    "date": 1783580400000,
+    "nation": 12,
+    "hull": 5,
+    "skills": [
+      [
+        190100,
+        190110,
+        190120
+      ],
+      [
+        190100,
+        190110,
+        190120,
+        19000
+      ],
+      [
+        190100,
+        190110,
+        190120,
+        19001
+      ],
+      [
+        190100,
+        190110,
+        190120,
+        19002
+      ]
+    ],
+    "specific_buff": null,
+    "slots": [
+      [
+        {
+          "types": [
+            4
+          ],
+          "default_id": 103,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 1
+        },
+        {
+          "types": [
+            1
+          ],
+          "default_id": 101,
+          "efficiency": 1.4,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            6,
+            21
+          ],
+          "default_id": 104,
+          "efficiency": 1.5,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            4
+          ],
+          "default_id": 103,
+          "efficiency": 1.1,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 1
+        },
+        {
+          "types": [
+            1
+          ],
+          "default_id": 101,
+          "efficiency": 1.4,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            6,
+            21
+          ],
+          "default_id": 104,
+          "efficiency": 1.5,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            4
+          ],
+          "default_id": 103,
+          "efficiency": 1.2,
+          "base": 2,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 2
+        },
+        {
+          "types": [
+            1
+          ],
+          "default_id": 101,
+          "efficiency": 1.5,
+          "base": 3,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            6,
+            21
+          ],
+          "default_id": 104,
+          "efficiency": 1.5,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ],
+      [
+        {
+          "types": [
+            4
+          ],
+          "default_id": 103,
+          "efficiency": 1.4,
+          "base": 3,
+          "preload": 0,
+          "parallel": 1,
+          "capacity": 2
+        },
+        {
+          "types": [
+            1
+          ],
+          "default_id": 101,
+          "efficiency": 1.5,
+          "base": 3,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            6,
+            21
+          ],
+          "default_id": 104,
+          "efficiency": 1.5,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        },
+        {
+          "types": [
+            10
+          ],
+          "default_id": -1,
+          "efficiency": 1,
+          "base": 1,
+          "preload": 0,
+          "parallel": 1
+        }
+      ]
+    ],
+    "stats": [
+      {
+        "armor": 2,
+        "hp": 1585,
+        "fp": 84,
+        "aa": 82,
+        "rld": 65,
+        "hit": 25,
+        "eva": 12,
+        "spd": 30,
+        "range": null,
+        "scaling": {
+          "hp": 42238,
+          "fp": 1662,
+          "aa": 1674,
+          "rld": 449,
+          "hit": 411,
+          "eva": 292
+        }
+      },
+      {
+        "armor": 2,
+        "hp": 1585,
+        "fp": 84,
+        "aa": 82,
+        "rld": 65,
+        "hit": 25,
+        "eva": 12,
+        "spd": 30,
+        "range": null,
+        "scaling": {
+          "hp": 42238,
+          "fp": 1662,
+          "aa": 1674,
+          "rld": 449,
+          "hit": 411,
+          "eva": 292
+        },
+        "strengthen": {
+          "fp": 18.6,
+          "rld": 7.2
+        }
+      },
+      {
+        "armor": 2,
+        "hp": 1585,
+        "fp": 84,
+        "aa": 82,
+        "rld": 65,
+        "hit": 25,
+        "eva": 12,
+        "spd": 30,
+        "range": null,
+        "scaling": {
+          "hp": 42238,
+          "fp": 1662,
+          "aa": 1674,
+          "rld": 449,
+          "hit": 411,
+          "eva": 292
+        },
+        "strengthen": {
+          "fp": 62,
+          "rld": 24
+        }
+      },
+      {
+        "armor": 2,
+        "hp": 1585,
+        "fp": 84,
+        "aa": 82,
+        "rld": 65,
+        "hit": 25,
+        "eva": 12,
+        "spd": 30,
+        "range": null,
+        "scaling": {
+          "hp": 42238,
+          "fp": 1662,
+          "aa": 1674,
+          "rld": 449,
+          "hit": 411,
+          "eva": 292
+        },
+        "strengthen": {
+          "fp": 124,
+          "rld": 48
+        }
+      }
+    ],
+    "research": [
+      {},
+      {
+        "stats": {
+          "hp": 387,
+          "aa": 20
+        }
+      },
+      {
+        "stats": {
+          "hp": 1160,
+          "aa": 60
+        }
+      },
+      {
+        "stats": {
+          "hp": 2320,
+          "aa": 121
+        }
+      }
+    ],
+    "lb_data": [
+      {
+        "stars": 3,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 0,
+        "id": 1299011,
+        "oil": {
+          "start": 1,
+          "end": 19
+        }
+      },
+      {
+        "stars": 4,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 10,
+        "id": 1299012,
+        "oil": {
+          "start": 1,
+          "end": 19
+        }
+      },
+      {
+        "stars": 5,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 30,
+        "id": 1299013,
+        "oil": {
+          "start": 1,
+          "end": 19
+        }
+      },
+      {
+        "stars": 6,
+        "star_max": 6,
+        "max_level": 0,
+        "min_level": 70,
+        "id": 1299014,
+        "oil": {
+          "start": 1,
+          "end": 19
+        }
+      }
+    ],
+    "fleet_tech": {
+      "collect": {
+        "pts": 56,
+        "stat": "hp",
+        "value": 2,
+        "hulls": [
+          4,
+          5,
+          10
+        ]
+      },
+      "level": {
+        "pts": 86,
+        "stat": "hit",
+        "value": 1,
+        "hulls": [
+          4,
+          5,
+          10
+        ]
+      },
+      "limit_break": {
+        "pts": 114
+      },
+      "sort_data": {
+        "class": 120501,
+        "index": 0
+      }
+    },
+    "skins": [],
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ],
+    "icon": "waerpalaisuo",
+    "class": "Valparaíso",
+    "upgrade_text": [
+      {
+        "descriptor": "Dev 5",
+        "value": [
+          "+387 base hp",
+          "+20 base aa",
+          "Slot 2 mounts +1",
+          "Slot 1 efficiency +5%"
+        ]
+      },
+      {
+        "descriptor": "Dev 10",
+        "value": [
+          "Limit Break to 4 Stars",
+          "Unlock Skill \"Siren Killer I\"",
+          "Slot 1 mounts +1",
+          "Slot 1 efficiency +5%"
+        ]
+      },
+      {
+        "descriptor": "Dev 15",
+        "value": [
+          "+773 base hp",
+          "+40 base aa",
+          "Slot 2 efficiency +10%"
+        ]
+      },
+      {
+        "descriptor": "Dev 20",
+        "value": [
+          "Limit Break to 5 Stars",
+          "Skill \"Siren Killer I\" changes to \"Siren Killer II\"",
+          "Salvo Capacity +1",
+          "Slot 2 mounts +1",
+          "Slot 1 efficiency +10%"
+        ]
+      },
+      {
+        "descriptor": "Dev 25",
+        "value": [
+          "+1160 base hp",
+          "+61 base aa",
+          "Slot 1 efficiency +5%"
+        ]
+      },
+      {
+        "descriptor": "Dev 30",
+        "value": [
+          "Limit Break to 6 Stars",
+          "Skill \"Siren Killer II\" changes to \"Siren Killer III\"",
+          "Slot 1 mounts +1",
           "Slot 1 efficiency +15%"
         ]
       }

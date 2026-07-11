@@ -1704,6 +1704,101 @@
       "CN"
     ]
   },
+  "122": {
+    "icon": "default_8",
+    "id": 122,
+    "name": "Default Torpedo Bomber (KMS)",
+    "rarity": 1,
+    "tech": 1,
+    "type": 8,
+    "description": "",
+    "skills": [],
+    "nation": 0,
+    "limit_group": 0,
+    "hull_restriction": [],
+    "max": 0,
+    "armaments": [
+      {
+        "aircraft": false,
+        "damage": [
+          17
+        ],
+        "count": 1,
+        "armor_mod": [
+          0.8,
+          1.1,
+          1.3
+        ],
+        "range": [
+          0,
+          35
+        ],
+        "reload": [],
+        "id": 135,
+        "spread_angle": null,
+        "name": "Unnamed Armament (Torpedo)",
+        "barrage_id": 2110,
+        "stat": "avi",
+        "ratio": 1,
+        "weapon_type": 3,
+        "aim_type": 1,
+        "bullet_id": 2111,
+        "ammo": 4,
+        "bullet_type": 3,
+        "spread": [
+          0,
+          0
+        ],
+        "splash": 3,
+        "velocity": 3,
+        "pierce": 0,
+        "shell_range": [
+          0,
+          0
+        ],
+        "angle": 150,
+        "volley_info": [
+          1,
+          1
+        ]
+      }
+    ],
+    "weapon": {
+      "aircraft": true,
+      "reload": [
+        3450
+      ],
+      "count": 1,
+      "is_interceptor": false,
+      "id": 122,
+      "speed": 48,
+      "hp_growth": [
+        973
+      ],
+      "hp": [
+        25
+      ],
+      "dodge": 1,
+      "dodge_limit": 0,
+      "crash_dmg": 9
+    },
+    "stats": [],
+    "labels": [
+      "kms",
+      "cv",
+      "tb"
+    ],
+    "speciality": "Ghost/Default",
+    "equippable_main": [],
+    "equippable_sub": [],
+    "obtainable": false,
+    "important": false,
+    "servers": [
+      "EN",
+      "JP",
+      "CN"
+    ]
+  },
   "123": {
     "icon": "default_9",
     "id": 123,
